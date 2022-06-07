@@ -17,3 +17,6 @@ The settings and steps for setting up the virtual reality will depend on the exp
 Open unity hub, select desired unity version (dropdown menu next to the “NEW” button”, then press “NEW”. Select 3D and choose a project name (this will be a directory name as well as the name of the unity program) and project directory.
 2. Load packages from Janelia Unity toolbox
 This is a two-step process. First we will install a package that will simplify the installation of packages from the Janelia Unity toolbox, then we will use this package to install other packages. You can use a json “manifest” file to install all necessary modules at once.
+
+
+![Screen dimensions](/assets/screenDimensions.png)
