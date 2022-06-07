@@ -1,3 +1,8 @@
+---
+title: World construction
+nav_order: 3
+---
+
 # Construction of virtual environments
 
 ## Definition of dimensions and orientation

@@ -1,3 +1,7 @@
+---
+title: Display construction
+nav_order: 4
+---
 # Projector-based display
 
 ## Pentagonal display for four projectors
