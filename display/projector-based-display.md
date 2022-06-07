@@ -1,9 +1,20 @@
 ---
+layout: default
 title: Display construction
-nav_order: 4
+parent: Display
+nav_order: 1
 ---
-# Projector-based display
 
+# Typography
+{: .no_toc }
+
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
+---
 ## Pentagonal display for four projectors
 
 ### Parts:
