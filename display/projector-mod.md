@@ -2,7 +2,7 @@
 layout: default
 title: Projector modification
 parent: Display
-nav_order: 1
+nav_order: 3
 ---
 
 # Instructions for installing an external light source
