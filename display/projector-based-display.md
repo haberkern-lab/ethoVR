@@ -41,8 +41,7 @@ nav_order: 1
   ![step 1](https://hjmh.github.io/ethoVR/assets/screenAssembly_step1.png)
 2. Re-enforce the assembly with the screen assembly guides (slip fit, no glue).
   ![step 2](https://hjmh.github.io/ethoVR/assets/screenAssembly_step2.png)
-3. Pre-crease the screen and carefully to align it to the frame. Use superglue to adhere the centermost fold to the frame top and bottom being careful to maintain tension and alignment. Once dry glue from the center out around the frame again being careful with alignment to prevent bowing or wrinkles. Clamping can be aided with binder clips.
-
+3. Pre-crease the screen and carefully to align it to the frame. Use superglue to adhere the centermost fold to the frame top and bottom being careful to maintain tension and alignment. Once dry, glue from the center out around the frame again. Be careful with the alignment to prevent bowing or wrinkles. Use binder clips to temporarily clamp the screen to the frame.
   ![step 3](https://hjmh.github.io/ethoVR/assets/screenAssembly_step3.png)
 4. After everything has dried, remove the assembly guides, trim the screen flush top and bottom and screw this sub assembly into the Bottom Screen Support Frame with 3 #4-40 0.1875" screws.
   ![step 4](https://hjmh.github.io/ethoVR/assets/screenAssembly_step4.png)
