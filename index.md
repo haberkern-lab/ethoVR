@@ -8,7 +8,7 @@ nav_order: 1
 
 Documentation for a Unity-based virtual reality system for neurobiology and ethology applications.
 
-[Get started now](#getting-started){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [Janelia Unity Toolkit](https://github.com/JaneliaSciComp/janelia-unity-toolkit){: .btn .fs-5 .mb-4 .mb-md-0 }
+[Get started now](/getting-started.html){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [Janelia Unity Toolkit](https://github.com/JaneliaSciComp/janelia-unity-toolkit){: .btn .fs-5 .mb-4 .mb-md-0 }
 
 ---
 
