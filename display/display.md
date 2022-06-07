@@ -13,3 +13,5 @@ Below we provide materials for constructing a panoramic visual display using DLP
 For the diffuser sheet, we recommend V-H105-CV07 or V-HHDE-PM06-S01-D01 from BrightView Technologies (Durham, NC, USA). Recommendations for projectors are listed [here].
 
 It is possible to use the built-in illumination source for the projectors, or modify the projectors to use an external illumination source. Instructions for projector modifications can be found [here].
+
+![photo of imaging rig display](/assets/imagingRig_projectors_photo.jpg)
