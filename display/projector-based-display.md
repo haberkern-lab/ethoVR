@@ -17,6 +17,7 @@ nav_order: 1
 ---
 
 ## Overview of the display design
+Below are renderings of a pentagonal panoramic display with four projectors.
 
 ![Frontal view](https://hjmh.github.io/ethoVR/assets/displayLayout_front.png)
 ![Top view](https://hjmh.github.io/ethoVR/assets/displayLayout_top.png)
@@ -24,11 +25,10 @@ nav_order: 1
 
 ## Parts for the screen
 **Commercial parts**
-* 5x thorlabs MS3R posts https://www.thorlabs.com/thorproduct.cfm?partnumber=MS3R
-*	10x 0.75in #4-40 flat head screws https://www.mcmaster.com/91500A308/  
-*	6x 0.1875in #4-40 flat head screws https://www.mcmaster.com/91500A120/
-*	1x precut screen sheet with at least 1/8in extra height and 1in length to trim after assembly
-*	Screen material, Item # V-H105-CV07 https://www.brightviewtechnologies.com/products/all-products/volumetric-diffusers
+* 5x [thorlabs MS3R posts](https://www.thorlabs.com/thorproduct.cfm?partnumber=MS3R)
+*	10x [0.75in #4-40 flat head screws](https://www.mcmaster.com/91500A308/)
+*	6x [0.1875in #4-40 flat head screws](https://www.mcmaster.com/91500A120/)
+*	1x precut screen sheet with at least 1/8in extra height and 1in length to trim after assembly. Screen material: [Item # V-H105-CV07](https://www.brightviewtechnologies.com/products/all-products/volumetric-diffusers)
 
 **3D printed parts**
 *	2x 3d printed WIDE SCREEN HOLDER parts with holes tapped for 4-40 thread
@@ -36,7 +36,7 @@ nav_order: 1
 *	1x Bottom Screen Support Frame
 *	1x Top Screen Support Frame
 
-## Screen ssembly
+## Screen assembly
 1. Assemble the wide screen holders and 2 thorlabs MSR3 posts with the 4-40 screws.
   ![step 1](https://hjmh.github.io/ethoVR/assets/screenAssembly_step1.png)
 2. Re-enforce the assembly with the screen assembly guides (slip fit, no glue).
