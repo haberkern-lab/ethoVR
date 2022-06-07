@@ -39,8 +39,8 @@ For this approach, one needs to first create 6 textures that form a cube map of 
 - In the Shader drop-down, click Skybox, then the skybox Shader you want to use (6-sided).
 - You can now fill out the properties on the Material to set up the skybox. The properties on the material depend on the skybox shader the material uses. For the 6-sided skybox, you have to map 6 texture images to the 6 sides.
 -The mapping works as follows
-+for gradients: +z:yNeg, -z:yPos, +x: xNeg, -x:xPos, +y:zPos, -y:zPos
-+for sun disks: +z:xNeg, -z:xPos, +x: yNeg, -x:yPos, +y:zPos, -y:zPos
++ for gradients: +z:yNeg, -z:yPos, +x: xNeg, -x:xPos, +y:zPos, -y:zPos
++ for sun disks: +z:xNeg, -z:xPos, +x: yNeg, -x:yPos, +y:zPos, -y:zPos
 -See below for how to generate skybox textures. Place these textures into a new folder called “Textures” in the Assets folder.
 -For each of the image textures, set Wrap Mode in the inspector window to “Clamp” to avoid black lines in the rendered world
 
@@ -56,6 +56,6 @@ Make a custom skybox texture with Blender
 Scripts for generating the cube maps in Blender can be found here: https://github.com/JaneliaSciComp/blender-spherical-video
 
 ​​Navigate to the cloned repo and use the following command:
-blender-spherical-video haberkernh$ Blender --background --python blender-spherical-video/sphericalVideo.py -- -i <pathToBlenderWorld> -o <directoryWhereToSaveImages>
+> blender-spherical-video haberkernh$ Blender --background --python blender-spherical-video/sphericalVideo.py -- -i <pathToBlenderWorld> -o <directoryWhereToSaveImages>
 
 2. Naturalistic skybox using models implemented in Blender: ….
