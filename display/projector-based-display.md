@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Display construction
+title: Screen construction
 parent: Display
 nav_order: 1
 ---
 
-# Typography
+# Pentagonal screen for four projectors
 {: .no_toc }
 
 ## Table of contents
@@ -15,9 +15,8 @@ nav_order: 1
 {:toc}
 
 ---
-## Pentagonal display for four projectors
 
-### Parts:
+## Parts:
 **Commercial parts**
 * 5x thorlabs MS3R posts https://www.thorlabs.com/thorproduct.cfm?partnumber=MS3R
 *	10x 0.75in #4-40 flat head screws https://www.mcmaster.com/91500A308/  
@@ -31,7 +30,7 @@ nav_order: 1
 *	1x Bottom Screen Support Frame
 *	1x Top Screen Support Frame
 
-### Assembly
+## Assembly
 1. Assemble the wide screen holders and 2 thorlabs MSR3 posts with the 4-40 screws.
 
 ![step 1](assets/screenAssembly_step1.png)

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Display construction
+title: Display
 nav_order: 4
 has_children: true
 permalink: /display
