@@ -1,11 +1,3 @@
----
-title: "Getting Started"
-author: HH
-nav_order: 2
-#has_children: true
-has_toc: true
----
-
 # Getting started
 
 ## First time setup
