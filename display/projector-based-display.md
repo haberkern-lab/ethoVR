@@ -16,15 +16,15 @@ nav_order: 1
 
 ---
 
-## Parts:
-**Commercial parts**
+## Parts
+### Commercial parts
 * 5x thorlabs MS3R posts https://www.thorlabs.com/thorproduct.cfm?partnumber=MS3R
 *	10x 0.75in #4-40 flat head screws https://www.mcmaster.com/91500A308/  
 *	6x 0.1875in #4-40 flat head screws https://www.mcmaster.com/91500A120/
 *	1x precut screen sheet with at least 1/8in extra height and 1in length to trim after assembly
 *	Screen material, Item # V-H105-CV07 https://www.brightviewtechnologies.com/products/all-products/volumetric-diffusers
 
-**3D printed parts**
+### 3D printed parts
 *	2x 3d printed WIDE SCREEN HOLDER parts with holes tapped for 4-40 thread
 *	3x SCREEN ASSEMBLY GUIDE parts(printed or lasercut)
 *	1x Bottom Screen Support Frame
