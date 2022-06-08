@@ -5,6 +5,17 @@ permalink: /worlds
 ---
 
 # Construction of virtual environments
+{: .no_toc }
+This page provides information on how to construct different types of virtual environments. This information is intended as a starting point, as the exact settings will depend on your experimental question and hardware.
+{: .fs-6 .fw-300 }
+
+---
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+---
 
 ## Definition of dimensions and orientation
 
