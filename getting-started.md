@@ -4,7 +4,7 @@ nav_order: 2
 ---
 
 # Getting started with the Janelia Unity Toolkit
-Below you will find instructions on how to setup the software side of the virtual reality system. For further information on the hardware, please refer to information on the [Display](https://hjmh.github.io/ethoVR/display) and [Hardware-interface](/hardware) pages.
+Below you will find instructions on how to setup the software side of the virtual reality system. For further information on the hardware, please refer to information on the [Display](../display) and [Hardware-interface](../hardware) pages.
 {: .fs-6 .fw-300 }
 
 ## First time setup
@@ -53,12 +53,9 @@ For experiments with the cylinder panorama world, you will also need to install 
 
 Without this change, System.IO.Ports will not be found, and the Unity editor will give errors like: type or namespace name 'SerialPort' could not be found.
 
-
-
 ### 3. Create game objects and link up package code with objects
 
 **Create the virtual screen for perspective correction**
-
 In the Unity editor’s “Window” menu, there should now be a “Setup Cameras, N-gon” midway down. Choose it to open a new window that allows configuration of cameras.
 The cameras will be created in the n-gon arrangement. The default values for “Number of cameras” and “Number of empty sides” (and also “Offset X (mm)” and “Offset Y (mm)” for now) will create a pentagon with one missing face. The offset values permit adjustments if the fly is not positioned at the center of the n-gon shape. You will have to use measurements from your projector rig to fill in the values for “Screen width (mm)”, “Screen height (mm)”, and “Fractional height”.
 For my screen setup I use the following settings:  
