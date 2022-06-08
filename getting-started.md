@@ -4,7 +4,7 @@ nav_order: 2
 ---
 
 # Getting started with the Janelia Unity Toolkit
-Below you will find instructions on how to setup the software side of the virtual reality system. For further information on the hardware, please refer to information on the [Display](../display) and [Hardware-interface](../hardware) pages.
+Below you will find instructions on how to setup the software side of the virtual reality system. For further information on the hardware, please refer to information on the [Display](../display) and [Hardware-interface](/hardware) pages.
 {: .fs-6 .fw-300 }
 
 ## First time setup
