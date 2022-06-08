@@ -65,7 +65,7 @@ First, make sure all power is disconnected and you are properly grounded to prev
 4. Gently fold the assembly over the circuit board and secure with 3 18mm M3 pan heads.
 <img src="../../assets/projectorReassembly_step4.png" alt="step4" width="400"/>
 5. Place the FLYVR PIVOT MOUNTPLATE, secure with the M3 screws from disassembly step #6
-<img src="../../assets/projectorReassembly_step5.png" alt="step5" width="400"/>
+<img src="../../assets/projectorReassembly_step5.jpg" alt="step5" width="400"/>
 
 ### Liquid Light Guide Alignment Sub-Assembly
 This allows for fine adjustment of the XY position of your light source relative to the optical engine.
