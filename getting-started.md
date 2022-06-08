@@ -5,7 +5,7 @@ nav_order: 2
 
 # Getting started with the Janelia Unity Toolkit
 {: .no_toc }
-Below you will find instructions on how to setup the software side of the virtual reality system. For further information on the hardware, please refer to information on the [Display](../display) and [Hardware-interface](./hardware) pages.
+Below you will find instructions on how to setup the software side of the virtual reality system. For further information on the hardware, please refer to information on the [Display](../display) and [Hardware-interface](../ethoVR/hardware) pages.
 {: .fs-6 .fw-300 }
 
 ---
@@ -126,7 +126,7 @@ Without this change, System.IO.Ports will not be found, and the Unity editor wil
 * Attach the script  to the main camera.
 
 #### Customize the scene
-See section [World construction](/worlds) for details.
+See section [World construction](../ethoVR/worlds) for details.
 
 ### 4. Create standalone player app
 
