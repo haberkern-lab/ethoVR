@@ -6,9 +6,6 @@ nav_order: 3
 ---
 
 # Instructions for installing an external light source
-
-The modification instructions below are for the DLPDLCR2010EVM model by Texas Instuments. Some of the steps might be applicable to other models, other steps might require extensive adjustments.
-
 {: .no_toc }
 
 ## Table of contents
@@ -16,6 +13,10 @@ The modification instructions below are for the DLPDLCR2010EVM model by Texas In
 
 1. TOC
 {:toc}
+
+---
+
+The modification instructions below are for the DLPDLCR2010EVM model by Texas Instuments. Some of the steps might be applicable to other models, other steps might require extensive adjustments.
 
 ---
 
