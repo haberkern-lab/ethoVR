@@ -93,7 +93,7 @@ Without this change, System.IO.Ports will not be found, and the Unity editor wil
     - Far (Unity units, here 10 cm): 1000
 
 * Press that window’s “Update” button. In the Unity editor you should now see a “Fly” object, which is the parent for the four cameras, each with an associated screen plane.
-* Place both the main camera and the “Fly” object at a distance of 1 mm above the pane (0.01 unity units). Adjust the main camera “near plane” to match the distance of the camera to the ground plane. I place the camera at y = 0.01 units (=1 mm for 10 cm units), so the near plane has to also be set to 0.01.
+* Place both the main camera and the “Fly” object at a distance of 1 mm above the pane (0.01 unity units). Adjust the main camera “near plane” to match the distance of the camera to the ground plane. *I place the camera at y = 0.01 units (=1 mm for 10 cm units), so the near plane has to also be set to 0.01.*
 
 #### Force render rate
 * In the Unity editor, in the “Hierarchy” panel, click the “Create” button in the upper-left, and choose “Create Empty”. In the “Hierarchy” panel, you should now see a “GameObject” item. Right-click on it, choose “Rename”, and rename it to “ForceRenderRate”.
