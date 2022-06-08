@@ -24,7 +24,7 @@ The modification instructions below are for the DLPDLCR2010EVM model by Texas In
 First, make sure all power is disconnected and you are properly grounded to prevent damaging components. It is advisable to retain all screws, components, and hardware as some will be reused in the new configuration.
 
 1. Remove the 2 screws holding the optical engine mounting plate. Gently invert the plate.
-![step 1](https://hjmh.github.io/ethoVR/assets/projectorDisassembly_step1.png)
+![step 1](../../assets/projectorDisassembly_step1.png)
 2. Disconnect the two LED ribbon cables either from the optical engine or the small circuit board.
 ![step 2](https://hjmh.github.io/ethoVR/assets/projectorDisassembly_step2.png)
 3. Gently pry the gold ribbon cable from the main circuit board.
@@ -71,7 +71,8 @@ First, make sure all power is disconnected and you are properly grounded to prev
 
 ### Liquid Light Guide Alignment Sub-Assembly
 This allows for fine adjustment of the XY position of your light source relative to the optical engine.
-![overview](https://hjmh.github.io/ethoVR/assets/LLGA_step0.png)
+
+<img src="../../assets/LLGA_step0.png" alt="overview" width="200"/>
 
 **Commercial parts**
 Note that quantities are listed per projector assembly.

@@ -4,14 +4,14 @@ nav_order: 2
 ---
 
 # Getting started with the Janelia Unity Toolkit
-Below you will find instructions on how to setup the software side of the virtual reality system. For further information on the hardware, please refer to information on the [Display](https://hjmh.github.io/ethoVR/display) and [hardware-interface](#todo) pages.
+Below you will find instructions on how to setup the software side of the virtual reality system. For further information on the hardware, please refer to information on the [Display](https://hjmh.github.io/ethoVR/display) and [Hardware-interface](/hardware) pages.
 {: .fs-6 .fw-300 }
 
 ## First time setup
 Install Unity and clone Janelia unity toolkit
 * Install a recent version of Unity Hub and then Unity itself.
 * Clone the janelia-unity-toolkit repository from GitHub into a local folder:
-> $ git clone https://github.com/JaneliaSciComp/janelia-unity-toolkit.git
+`$ git clone https://github.com/JaneliaSciComp/janelia-unity-toolkit.git`
 
 Now proceed with the step-by-step guide below.
 
@@ -43,13 +43,13 @@ For experiments with the cylinder panorama world, you will also need to install 
 **Install the installer package:** In the top menu bar, click “Window” → “Package Manager”. This should open a pop-up window. In the new window, click on the small “+” in the top left corner and select “Add package from disk”. Navigate to the directory that contains the Janelia Unity toolbox code and in there to the subdirectory “org.janelia.package-installer”. Select “package.json” and click “Open”. The package “Janelia Package Installer For Dependencies” should now be listed. Close the pop-up window.
 
 **Install other packages:** In the top menu bar, click “Window” → “Install Package and Dependencies”. This should open a different pop-up window.
-* Option 1 – Manually install each package: In the new window, navigate to a toolbox directory and select the package.json file. Then click “Open”. The pop-up window will close and a new window will pop up listing all dependencies of the previously selected package. Click “Install”. Once the installation is complete, you can double check if the packages have been installed by again opening  “Window” → “Package Manager” and reviewing the list of packages under “Custom”. Repeat the steps above until all desired packages have been installed. The installed packages should now also appear in the “Packages” area of the “Project” tab.  In the latter, the “Editor” sub-folder is what contains the code.
-* Option 2 – Use a installer: You can use a “manifest” to to install a specified list of packages and it’s dependencies. Simply navigate to and double click on the manifest file (which is a simple json formatted list and can be manually generated).
+* <ins>Option 1 – Manually install each package</ins>: In the new window, navigate to a toolbox directory and select the package.json file. Then click “Open”. The pop-up window will close and a new window will pop up listing all dependencies of the previously selected package. Click “Install”. Once the installation is complete, you can double check if the packages have been installed by again opening  “Window” → “Package Manager” and reviewing the list of packages under “Custom”. Repeat the steps above until all desired packages have been installed. The installed packages should now also appear in the “Packages” area of the “Project” tab.  In the latter, the “Editor” sub-folder is what contains the code.
+* <ins>Option 2 – Use a installer</ins>: You can use a “manifest” to to install a specified list of packages and it’s dependencies. Simply navigate to and double click on the manifest file (which is a simple json formatted list and can be manually generated).
 
 **Note** that Unity's Api Compatibility Level must be set to .NET 4.x in the project using the Janelia Basic Input/Output package (to support reading from serial ports):
 * In the Unity editor's “Edit” menu, choose “Project Settings…” to raise the Project Settings window.
 * In the “Player” tab, open the “Other Settings” tab.
-* Under “Configuration”, set API Compatibility Level to .NET 4.x.
+* Under “Configuration”, set API Compatibility Level to **.NET 4.x**.
 
 Without this change, System.IO.Ports will not be found, and the Unity editor will give errors like: type or namespace name 'SerialPort' could not be found.
 
