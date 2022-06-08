@@ -26,21 +26,19 @@ First, make sure all power is disconnected and you are properly grounded to prev
 1. Remove the 2 screws holding the optical engine mounting plate. Gently invert the plate.
 ![step 1](../../assets/projectorDisassembly_step1.png)
 2. Disconnect the two LED ribbon cables either from the optical engine or the small circuit board.
-![step 2](https://hjmh.github.io/ethoVR/assets/projectorDisassembly_step2.png)
+![step 2](../../assets/projectorDisassembly_step2.png)
 3. Gently pry the gold ribbon cable from the main circuit board.
-![step 3](https://hjmh.github.io/ethoVR/assets/projectorDisassembly_step3.png)
+![step 3](../../assets/projectorDisassembly_step3.png)
 4. Remove the screws/nuts holding the optical engine to the plate and save them for a later step.
 5. Pry off the LED assembly from the opposite side of the ribbon cable. The front LED assembly can be left in place.
-![step 5](https://hjmh.github.io/ethoVR/assets/projectorDisassembly_step5.png)
+![step 5](../../assets/projectorDisassembly_step5.png)
 6. Remove the projector circuit board assembly from the base plate. Retain the 5 M3 screws for a later step.
-![step 6](https://hjmh.github.io/ethoVR/assets/projectorDisassembly_step6.jpg)
+![step 6](../../assets/projectorDisassembly_step6.jpg)
 7. Disassembly complete. For modification you will need the optical engine, circuit board and fasteners mentioned above.
-![step 7](https://hjmh.github.io/ethoVR/assets/projectorDisassembly_step7.jpg)
-
+![step 7](../../assets/projectorDisassembly_step7.jpg)
 
 ## Reassembly and modifications
-
-![overview](https://hjmh.github.io/ethoVR/assets/projectorReassembly_step0.png)
+<img src="../../assets/projectorReassembly_step0.png" alt="overview" width="500"/>
 
 ### Projector modifications
 **Commercial parts**
@@ -59,15 +57,15 @@ First, make sure all power is disconnected and you are properly grounded to prev
 
 **Modification steps**
 1. Prepare the PROJECTOR MOUNT FOR ADJ XY LLG for assembly by using the #00-96 screws to cut threads into the printed holes and tap the hole on the vertical face for a #4-40 screw.
-![step1](https://hjmh.github.io/ethoVR/assets/projectorReassembly_step1.png)
+<img src="../../assets/projectorReassembly_step1.png" alt="step1" width="400"/>
 2. Place the optical engine and ribbon cables onto the PROJECTOR MOUNT FOR ADJ XY LLG and secure with the screw from disassembly step #4.
-![step2](https://hjmh.github.io/ethoVR/assets/projectorReassembly_step2.png)
+<img src="../../assets/projectorReassembly_step2.png" alt="step2" width="400"/>
 3. Carefully connect the ribbon cable from the optical engine to the circuit board.
-![step3](https://hjmh.github.io/ethoVR/assets/projectorReassembly_step3.png)
+<img src="../../assets/projectorReassembly_step3.png" alt="step3" width="400"/>
 4. Gently fold the assembly over the circuit board and secure with 3 18mm M3 pan heads.
-![step4](https://hjmh.github.io/ethoVR/assets/projectorReassembly_step4.png)
+<img src="../../assets/projectorReassembly_step4.png" alt="step4" width="400"/>
 5. Place the FLYVR PIVOT MOUNTPLATE, secure with the M3 screws from disassembly step #6
-![step5](https://hjmh.github.io/ethoVR/assets/projectorReassembly_step5.jpg)
+<img src="../../assets/projectorReassembly_step5.png" alt="step5" width="400"/>
 
 ### Liquid Light Guide Alignment Sub-Assembly
 This allows for fine adjustment of the XY position of your light source relative to the optical engine.
@@ -97,23 +95,23 @@ These should be printed on a resin or polyjet printer for accuracy.
 **Liquid light guide alignment fabrication**
 1.	Press the ultra-fine threaded brass inserts into the XY SLIDE BOTTOM until their flanges are against the inner wall.
 At this point the circled holes should be tapped for #4-40 screws.
-![step1](https://hjmh.github.io/ethoVR/assets/LLGA_step1.png)
+<img src="../../assets/LLGA_step1.png" alt="step1" width="200"/>
 
 2. Install the compression springs in the recesses opposite the inserts. A small dab of epoxy or superglue can be used to secure the base of the spring in the recess.
-![step2](https://hjmh.github.io/ethoVR/assets/LLGA_step2.png)
+<img src="../../assets/LLGA_step2.png" alt="step2" width="200"/>
 
 3. Tap the hole in the XY SLIDE PLATE for a #4-40 set screw. Apply a small amount of oil to the base and sides of the XY SLIDE PLATE. Place it into the base along with 2 LINEAR GUIDE BLOCKS adjacent to the brass inserts.
-![step3](https://hjmh.github.io/ethoVR/assets/LLGA_step3.png)
+<img src="../../assets/LLGA_step3.png" alt="step3" width="200"/>
 
 4. With tweezers compress the springs and slip the remaining LINEAR GUIDE BLOCKS into place.
 
 5. Insert 4x 0.625in #4-40 screws into the countersunk holes. The orientation of the assembly can be changed per projector to allow for easier access to the ultrafine set screws.
-![step5](https://hjmh.github.io/ethoVR/assets/LLGA_step5.png)
+<img src="../../assets/LLGA_step5.png" alt="step5" width="200"/>
 
 6. Place the XY SLIDE TOP onto the assembly and secure with 4x 0.375in #4-40 screws.
 
 7. Insert ultrafine set screws into brass inserts. Adjust until the XY SLIDE PLATE is roughly centered.
-![step7](https://hjmh.github.io/ethoVR/assets/LLGA_step7.png)
+<img src="../../assets/LLGA_step7.png" alt="step7" width="200"/>
 
 8. Install the nylon tipped #4-40 set screw in the XY SLIDE PLATE.
 
@@ -121,13 +119,13 @@ At this point the circled holes should be tapped for #4-40 screws.
 ### Joining the Sub-Assemblies
 
 1. Insert 3 #4-40 nuts into the vertical plate on the PROJECTOR MOUNT FOR ADJ XY LLG and secure the LLGA sub assembly via the #4-40 screws.
-![step1](https://hjmh.github.io/ethoVR/assets/LLGAProjector_step1.png)
+<img src="../../assets/LLGAProjector_step1.png" alt="step1" width="300"/>
 
 2. Sight down the barrel of the LLG adapter and adjust the ultra-fine set screws until it is aligned with the LED lens assembly in the optical engine.
-![step2](https://hjmh.github.io/ethoVR/assets/LLGAProjector_step2.png)
+<img src="../../assets/LLGAProjector_step2.png" alt="step2" width="300"/>
 
 3. Place the PROJECTOR LIGHTBLOCK and secure with an M3 screw from disassembly step #6
-![step3](https://hjmh.github.io/ethoVR/assets/LLGAProjector_step3.png)
+<img src="../../assets/LLGAProjector_step3.png" alt="step3" width="300"/>
 
 4. Attach projector assembly to the thorlab KM100 and post.  
-![step4](https://hjmh.github.io/ethoVR/assets/LLGAProjector_step4.png)
+<img src="../../assets/LLGAProjector_step4.png" alt="step4" width="300"/>
