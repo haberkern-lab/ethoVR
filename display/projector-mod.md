@@ -110,7 +110,7 @@ Place into the base along with 2 LINEAR GUIDE BLOCKS adjacent to the brass inser
 8. Install the nylon tipped #4-40 set screw in the XY SLIDE PLATE.
 
 
-**Joining the Sub-Assemblies**
+### Joining the Sub-Assemblies
 
 1. Insert 3 #4-40 nuts into the vertical plate on the PROJECTOR MOUNT FOR ADJ XY LLG and secure the LLGA sub assembly via the #4-40 screws.
 
