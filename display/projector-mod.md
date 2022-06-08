@@ -38,7 +38,7 @@ First, make sure all power is disconnected and you are properly grounded to prev
 ![step 7](../../assets/projectorDisassembly_step7.jpg)
 
 ## Reassembly and modifications
-<img src="../../assets/projectorReassembly_step0.png" alt="overview" width="500"/>
+<img src="../../assets/projectorReassembly_step0.png" alt="overview" width="600"/>
 
 ### Projector modifications
 **Commercial parts**
@@ -95,22 +95,27 @@ These should be printed on a resin or polyjet printer for accuracy.
 **Liquid light guide alignment fabrication**
 1.	Press the ultra-fine threaded brass inserts into the XY SLIDE BOTTOM until their flanges are against the inner wall.
 At this point the circled holes should be tapped for #4-40 screws.
+
 <img src="../../assets/LLGA_step1.png" alt="step1" width="200"/>
 
 2. Install the compression springs in the recesses opposite the inserts. A small dab of epoxy or superglue can be used to secure the base of the spring in the recess.
+
 <img src="../../assets/LLGA_step2.png" alt="step2" width="200"/>
 
 3. Tap the hole in the XY SLIDE PLATE for a #4-40 set screw. Apply a small amount of oil to the base and sides of the XY SLIDE PLATE. Place it into the base along with 2 LINEAR GUIDE BLOCKS adjacent to the brass inserts.
+
 <img src="../../assets/LLGA_step3.png" alt="step3" width="200"/>
 
 4. With tweezers compress the springs and slip the remaining LINEAR GUIDE BLOCKS into place.
 
 5. Insert 4x 0.625in #4-40 screws into the countersunk holes. The orientation of the assembly can be changed per projector to allow for easier access to the ultrafine set screws.
+
 <img src="../../assets/LLGA_step5.png" alt="step5" width="200"/>
 
 6. Place the XY SLIDE TOP onto the assembly and secure with 4x 0.375in #4-40 screws.
 
 7. Insert ultrafine set screws into brass inserts. Adjust until the XY SLIDE PLATE is roughly centered.
+
 <img src="../../assets/LLGA_step7.png" alt="step7" width="200"/>
 
 8. Install the nylon tipped #4-40 set screw in the XY SLIDE PLATE.
@@ -119,13 +124,17 @@ At this point the circled holes should be tapped for #4-40 screws.
 ### Joining the Sub-Assemblies
 
 1. Insert 3 #4-40 nuts into the vertical plate on the PROJECTOR MOUNT FOR ADJ XY LLG and secure the LLGA sub assembly via the #4-40 screws.
+
 <img src="../../assets/LLGAProjector_step1.png" alt="step1" width="300"/>
 
 2. Sight down the barrel of the LLG adapter and adjust the ultra-fine set screws until it is aligned with the LED lens assembly in the optical engine.
+
 <img src="../../assets/LLGAProjector_step2.png" alt="step2" width="300"/>
 
 3. Place the PROJECTOR LIGHTBLOCK and secure with an M3 screw from disassembly step #6
+
 <img src="../../assets/LLGAProjector_step3.png" alt="step3" width="300"/>
 
-4. Attach projector assembly to the thorlab KM100 and post.  
+4. Attach projector assembly to the thorlab KM100 and post.
+
 <img src="../../assets/LLGAProjector_step4.png" alt="step4" width="300"/>
