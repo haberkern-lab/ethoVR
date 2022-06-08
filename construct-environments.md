@@ -27,7 +27,7 @@ Since we are not using  the unity physics engine to update positions of objects 
 The ball radius can be exposed as a variable in the unity editor (and later in a GUI).
 
 ### Definition of angles in cylinder worlds
-<img src="../../assets/screenDimensions.png" alt="angle definitions" width="200"/>
+<img src="../assets/screenDimensions.png" alt="angle definitions" width="200"/>
 
 
 ## Customize distant features
