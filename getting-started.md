@@ -5,7 +5,7 @@ nav_order: 2
 
 # Getting started with the Janelia Unity Toolkit
 {: .no_toc }
-Below you will find instructions on how to setup the software side of the virtual reality system. For further information on the hardware, please refer to information on the [Display](../display) and [Hardware-interface](../ethoVR/hardware) pages.
+Below you will find instructions on how to setup the software side of the virtual reality system. For further information on the hardware, please refer to information on the [Display](../display) and [Hardware-interface](hardware) pages.
 {: .fs-6 .fw-300 }
 
 ---
@@ -69,28 +69,28 @@ Without this change, System.IO.Ports will not be found, and the Unity editor wil
 * In the Unity editor’s “Window” menu, there should now be a “Setup Cameras, N-gon” midway down. Choose it to open a new window that allows configuration of cameras.
 * The cameras will be created in the n-gon arrangement. The default values for “Number of cameras” and “Number of empty sides” (and also “Offset X (mm)” and “Offset Y (mm)” for now) will create a pentagon with one missing face. The offset values permit adjustments if the fly is not positioned at the center of the n-gon shape. You will have to use measurements from your projector rig to fill in the values for “Screen width (mm)”, “Screen height (mm)”, and “Fractional height”.
 * *For my screen setup I use the following settings:*
-    - Number of cameras: 4
-    - Number of empty sides: 1
-    - Screen width (any units, here cm): 5.8
-    - Screen height (any units, here cm): 9.5
-    - Offset X (Unity units, here 10 cm): 0
-    - Offset Y (Unity units, here 10 cm): 0
-    - Near (Unity units, here 10 cm): 0.01 (estimated distance of fly head from ground)
-    - Far (Unity units, here 10 cm): 1000
-    - Fractional height: 0.737 (fly head is positioned about 25 mm below the edge of the screen)
-    - Rotation: -18
+      - Number of cameras: 4
+      - Number of empty sides: 1
+      - Screen width (any units, here cm): 5.8
+      - Screen height (any units, here cm): 9.5
+      - Offset X (Unity units, here 10 cm): 0
+      - Offset Y (Unity units, here 10 cm): 0
+      - Near (Unity units, here 10 cm): 0.01 (estimated distance of fly head from ground)
+      - Far (Unity units, here 10 cm): 1000
+      - Fractional height: 0.737 (fly head is positioned about 25 mm below the edge of the screen)
+      - Rotation: -18
 
 * *For the 2-projector behavior rig chose:*
-    - Number of cameras: 2
-    - Number of empty sides: 2
-    - Screen width (any units, here dm): 1.0
-    - Screen height (any units, here dm): 1.72
-    - Fractional height: 0.33 (fly head is positioned about ...mm below the edge of the screen)
-    - Rotation Y (deg): 45
-    - Offset X (Unity units, here 10 cm): -0.32
-    - Offset Y (Unity units, here 10 cm): 0
-    - Near (Unity units, here 10 cm): 0.01 (estimated distance of fly head from ground)
-    - Far (Unity units, here 10 cm): 1000
+      - Number of cameras: 2
+      - Number of empty sides: 2
+      - Screen width (any units, here dm): 1.0
+      - Screen height (any units, here dm): 1.72
+      - Fractional height: 0.33 (fly head is positioned about ...mm below the edge of the screen)
+      - Rotation Y (deg): 45
+      - Offset X (Unity units, here 10 cm): -0.32
+      - Offset Y (Unity units, here 10 cm): 0
+      - Near (Unity units, here 10 cm): 0.01 (estimated distance of fly head from ground)
+      - Far (Unity units, here 10 cm): 1000
 
 * Press that window’s “Update” button. In the Unity editor you should now see a “Fly” object, which is the parent for the four cameras, each with an associated screen plane.
 * Place both the main camera and the “Fly” object at a distance of 1 mm above the pane (0.01 unity units). Adjust the main camera “near plane” to match the distance of the camera to the ground plane. *I place the camera at y = 0.01 units (=1 mm for 10 cm units), so the near plane has to also be set to 0.01.*
