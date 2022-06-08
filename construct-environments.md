@@ -27,9 +27,11 @@ Since we are not using  the unity physics engine to update positions of objects 
 The ball radius can be exposed as a variable in the unity editor (and later in a GUI).
 
 ### Definition of angles in cylinder worlds
-![screen geometry](assets/screenDimensions.png)
+<img src="../../assets/screenDimensions.png" alt="angle definitions" width="200"/>
+
 
 ## Customize distant features
+
 ### Simulation of a fixed panorama using a background cylinder
 This option is used for generating a 1D cylinder panorama where different images can be loaded in at run time.
 * Install the Janelia Unity Toolkit package “Background”
@@ -53,14 +55,14 @@ There is an ipython notebook for generating panorama textures (generatePanoramas
 For this approach, one needs to first create 6 textures that form a cube map of the sky. Philip Hubbard wrote a python script that allows rendering such cube maps with the Nishita model in Blender (2.9 or higher).
 
 * To create a new skybox material:
-- In the menu bar navigate to Assets → Create → Material. You should rename it and move it into a new folder in Assets called “Materials”.
-- In the Shader drop-down, click Skybox, then the skybox Shader you want to use (6-sided).
-- You can now fill out the properties on the Material to set up the skybox. The properties on the material depend on the skybox shader the material uses. For the 6-sided skybox, you have to map 6 texture images to the 6 sides.
--The mapping works as follows
-+ for gradients: +z:yNeg, -z:yPos, +x: xNeg, -x:xPos, +y:zPos, -y:zPos
-+ for sun disks: +z:xNeg, -z:xPos, +x: yNeg, -x:yPos, +y:zPos, -y:zPos
--See below for how to generate skybox textures. Place these textures into a new folder called “Textures” in the Assets folder.
--For each of the image textures, set Wrap Mode in the inspector window to “Clamp” to avoid black lines in the rendered world
+    - In the menu bar navigate to Assets → Create → Material. You should rename it and move it into a new folder in Assets called “Materials”.
+    - In the Shader drop-down, click Skybox, then the skybox Shader you want to use (6-sided).
+    - You can now fill out the properties on the Material to set up the skybox. The properties on the material depend on the skybox shader the material uses. For the 6-sided skybox, you have to map 6 texture images to the 6 sides.
+    - The mapping works as follows
+        + for gradients: +z:yNeg, -z:yPos, +x: xNeg, -x:xPos, +y:zPos, -y:zPos
+        + for sun disks: +z:xNeg, -z:xPos, +x: yNeg, -x:yPos, +y:zPos, -y:zPos
+    - See below for how to generate skybox textures. Place these textures into a new folder called “Textures” in the Assets folder.
+    - For each of the image textures, set Wrap Mode in the inspector window to “Clamp” to avoid black lines in the rendered world
 
 * Go to Window → Rendering → Lighting to open the lighting window
 * In the Environment tab you can select your skybox of choice.
@@ -74,6 +76,6 @@ Make a custom skybox texture with Blender
 Scripts for generating the cube maps in Blender can be found here: https://github.com/JaneliaSciComp/blender-spherical-video
 
 ​​Navigate to the cloned repo and use the following command:
-> blender-spherical-video haberkernh$ Blender --background --python blender-spherical-video/sphericalVideo.py -- -i <pathToBlenderWorld> -o <directoryWhereToSaveImages>
+`blender-spherical-video haberkernh$ Blender --background --python blender-spherical-video/sphericalVideo.py -- -i <pathToBlenderWorld> -o <directoryWhereToSaveImages>`
 
 2. Naturalistic skybox using models implemented in Blender: ….
