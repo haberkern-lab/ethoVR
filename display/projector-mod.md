@@ -24,19 +24,20 @@ The modification instructions below are for the DLPDLCR2010EVM model by Texas In
 First, make sure all power is disconnected and you are properly grounded to prevent damaging components. It is advisable to retain all screws, components, and hardware as some will be reused in the new configuration.
 
 1. Remove the 2 screws holding the optical engine mounting plate. Gently invert the plate.
-
+<img style="float: right;" src="whatever.jpg">
+![step 1](https://hjmh.github.io/ethoVR/assets/projectorDisassembly_step1.png)
 2. Disconnect the two LED ribbon cables either from the optical engine or the small circuit board.
-
+![step 2](https://hjmh.github.io/ethoVR/assets/projectorDisassembly_step2.png)
 3. Gently pry the gold ribbon cable from the main circuit board.
-
+![step 3](https://hjmh.github.io/ethoVR/assets/projectorDisassembly_step3.png)
 4. Remove the screws/nuts holding the optical engine to the plate and save them for a later step.
 
 5. Pry off the LED assembly from the opposite side of the ribbon cable. The front LED assembly can be left in place.
-
+![step 5](https://hjmh.github.io/ethoVR/assets/projectorDisassembly_step5.png)
 6. Remove the projector circuit board assembly from the base plate. Retain the 5 M3 screws for a later step.
-
+![step 6](https://hjmh.github.io/ethoVR/assets/projectorDisassembly_step6.png)
 7. Disassembly complete. For modification you will need the optical engine, circuit board and fasteners mentioned above.
-
+![step 7](https://hjmh.github.io/ethoVR/assets/projectorDisassembly_step7.png)
 
 
 ## Reassembly and modifications
