@@ -1,6 +1,7 @@
 ---
 title: World construction
 nav_order: 3
+permalink: /worlds
 ---
 
 # Construction of virtual environments
