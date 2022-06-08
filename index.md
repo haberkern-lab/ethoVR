@@ -13,7 +13,12 @@ Documentation for a Unity-based virtual reality system for neurobiology and etho
 
 [Get started now](https://hjmh.github.io/ethoVR/getting-started/){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [Janelia Unity Toolkit](https://github.com/JaneliaSciComp/janelia-unity-toolkit){: .btn .fs-5 .mb-4 .mb-md-0 }
 
+---
+
+![intro image](https://hjmh.github.io/ethoVR/assets/DemoImage.png)
+
 <button class="btn js-toggle-dark-mode">Switch to dark scheme</button>
+
 <script>
 const toggleDarkMode = document.querySelector('.js-toggle-dark-mode');
 
@@ -27,10 +32,6 @@ jtd.addEvent(toggleDarkMode, 'click', function(){
   }
 });
 </script>
-
----
-
-![intro image](https://hjmh.github.io/ethoVR/assets/DemoImage.png)
 
 This documentation is meant as a practical guide to help you set up your own Unity-based virtual reality using modules from the Janelia Unity Toolkit. In addition to "How-to guides", this website provides information to hardware, design files for custom 3D printed parts and assembly instructions.
 
