@@ -16,7 +16,7 @@ Install Unity and clone Janelia unity toolkit
 Now proceed with the step-by-step guide below.
 
 ## Step-by-step guide to setting up a new unity program
-***Prerequisites***: Unity hub and at least one version of unity are installed and the Janelia Unity toolbox code has been cloned to a local directory.
+<ins>Prerequisites</ins>: Unity hub and at least one version of unity are installed and the Janelia Unity toolbox code has been cloned to a local directory.
 
 The settings and steps for setting up the virtual reality will depend on the experimental design and hardware. In the instructions below, experimental settings specific to the imaging rig described in [Haberkern et al, bioRxiv, 2022](https://biorxiv.org/content/10.1101/2022.05.17.492284v1.full) are provided as an example (in *italic*).
 
