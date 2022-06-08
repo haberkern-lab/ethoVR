@@ -55,14 +55,14 @@ There is an ipython notebook for generating panorama textures (generatePanoramas
 For this approach, one needs to first create 6 textures that form a cube map of the sky. Philip Hubbard wrote a python script that allows rendering such cube maps with the Nishita model in Blender (2.9 or higher).
 
 * To create a **new skybox material**:
-      * In the menu bar navigate to Assets → Create → Material. You should rename it and move it into a new folder in Assets called “Materials”.
-      * In the Shader drop-down, click Skybox, then the skybox Shader you want to use (6-sided).
-      * You can now fill out the properties on the Material to set up the skybox. The properties on the material depend on the skybox shader the material uses. For the 6-sided skybox, you have to map 6 texture images to the 6 sides.
-      * The mapping works as follows
-            * *for gradients*: +z:yNeg, -z:yPos, +x: xNeg, -x:xPos, +y:zPos, -y:zPos
-            * *for sun disks*: +z:xNeg, -z:xPos, +x: yNeg, -x:yPos, +y:zPos, -y:zPos
-      * See below for how to generate skybox textures. Place these textures into a new folder called “Textures” in the Assets folder.
-      *  For each of the image textures, set Wrap Mode in the inspector window to “Clamp” to avoid black lines in the rendered world
+    * In the menu bar navigate to Assets → Create → Material. You should rename it and move it into a new folder in Assets called “Materials”.
+    * In the Shader drop-down, click Skybox, then the skybox Shader you want to use (6-sided).
+    * You can now fill out the properties on the Material to set up the skybox. The properties on the material depend on the skybox shader the material uses. For the 6-sided skybox, you have to map 6 texture images to the 6 sides.
+    * The mapping works as follows
+        * *for gradients*: +z:yNeg, -z:yPos, +x: xNeg, -x:xPos, +y:zPos, -y:zPos
+        * *for sun disks*: +z:xNeg, -z:xPos, +x: yNeg, -x:yPos, +y:zPos, -y:zPos
+    * See below for how to generate skybox textures. Place these textures into a new folder called “Textures” in the Assets folder.
+    *  For each of the image textures, set Wrap Mode in the inspector window to “Clamp” to avoid black lines in the rendered world
 
 * Go to Window → Rendering → Lighting to open the lighting window
 * In the Environment tab you can select your skybox of choice.
