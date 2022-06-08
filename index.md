@@ -20,3 +20,25 @@ Documentation for a Unity-based virtual reality system for neurobiology and etho
 This documentation is meant as a practical guide to help you set up your own Unity-based virtual reality using modules from the Janelia Unity Toolkit. In addition to "How-to guides", this website provides information to hardware, design files for custom 3D printed parts and assembly instructions.
 
 A neuroscience project using this virtual reality system is described here: [Haberkern et al, bioRxiv, 2022](https://biorxiv.org/content/10.1101/2022.05.17.492284v1.full).
+
+
+Switch color scheme:
+```yaml
+# Color scheme supports "light" (default) and "dark"
+color_scheme: dark
+```
+<button class="btn js-toggle-dark-mode">Switch to dark</button>
+
+<script>
+const toggleDarkMode = document.querySelector('.js-toggle-dark-mode');
+
+jtd.addEvent(toggleDarkMode, 'click', function(){
+  if (jtd.getTheme() === 'dark') {
+    jtd.setTheme('light');
+    toggleDarkMode.textContent = 'Switch to dark';
+  } else {
+    jtd.setTheme('dark');
+    toggleDarkMode.textContent = 'Switch to light';
+  }
+});
+</script>
