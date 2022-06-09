@@ -8,6 +8,8 @@ nav_order: 2
 Below you will find instructions on how to setup the software side of the virtual reality system. For further information on the hardware, please refer to information on the [Display](../display) and [Hardware-interface](../hardware) pages.
 {: .fs-6 .fw-300 }
 
+Briefly, we used the Unity editor to design virtual worlds, largely in an automated fashion using imported packages from the Janelia Unity Toolkit. These virtual worlds included functionality for customized perspective projection matching the display geometry of the respective rig ([see here](#create-the-virtual-screen-for-perspective-correction)) or to force a [fixed frame rate](#force-render-rate), matching the chosen frame rate of the respective rig. Several other packages implement a socket connection to read FicTrack ball tracking data and a custom positional update (see also [here](../hardware)), a customizable data logging framework for writing an event-based log to a json file, as well as an interface for communication with a NIDaq board (see also [here](../hardware)). Full documentation for these and other packages can be found on [github](https://github.com/JaneliaSciComp/janelia-unity-toolkit).
+
 ---
 ## Table of contents
 {: .no_toc .text-delta }
@@ -23,12 +25,14 @@ Install Unity and clone Janelia unity toolkit
 * Clone the janelia-unity-toolkit repository from GitHub into a local folder:
 `$ git clone https://github.com/JaneliaSciComp/janelia-unity-toolkit.git`
 
-Now proceed with the step-by-step guide below.
+If you are new to Unity, we recommend following one of the [tutorials on the Unity website](https://learn.unity.com/project/roll-a-ball) to get familiar with the **Unity editor**.
 
-## Step-by-step guide to setting up a new unity program
+Next, proceed with the step-by-step guide below.
+
+## Step-by-step guide to setting up a new unity program for ethoVR
 <ins>Prerequisites</ins>: Unity hub and at least one version of unity are installed and the Janelia Unity toolbox code has been cloned to a local directory.
 
-The settings and steps for setting up the virtual reality will depend on the experimental design and hardware. In the instructions below, experimental settings specific to the imaging rig described in [Haberkern et al, bioRxiv, 2022](https://biorxiv.org/content/10.1101/2022.05.17.492284v1.full) are provided as an example (in *italic*).
+Note that the settings and steps for setting up the virtual reality will depend on the experimental design and hardware. In the instructions below, experimental settings specific to the imaging rig described in [Haberkern et al, bioRxiv, 2022](https://biorxiv.org/content/10.1101/2022.05.17.492284v1.full) are provided as an example (in *italic*).
 
 ### 1. Create a new unity project
 Open unity hub, select desired unity version (dropdown menu next to the “NEW” button”, then press “NEW”. Select 3D and choose a project name (this will be a directory name as well as the name of the unity program) and project directory.

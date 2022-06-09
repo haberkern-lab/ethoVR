@@ -11,28 +11,15 @@ permalink: /
 Documentation for a Unity-based virtual reality system for neurobiology and ethology applications.
 {: .fs-6 .fw-300 }
 
-[Get started now](https://hjmh.github.io/ethoVR/getting-started/){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [Janelia Unity Toolkit](https://github.com/JaneliaSciComp/janelia-unity-toolkit){: .btn .fs-5 .mb-4 .mb-md-0 }
+Building on the Unity game engine, we developed a novel, versatile virtual reality software. We developed packages that extend Unity functionality in a modular manner to accommodate specialized needs for applications of virtual reality in neuroscience and (neuro-)ethology. These packages are published as part of the Janelia Unity Toolkit, and allow precise control of frame rate, setup of a panoramic display, a connection with FicTrac via socket connection, custom collision handling, data logging and more.
+
+[Get started now](https://hjmh.github.io/ethoVR/getting-started/){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }  [Janelia Unity Toolkit](https://github.com/JaneliaSciComp/janelia-unity-toolkit){: .btn .fs-5 .mb-4 .mb-md-0 }
 
 ---
 
 ![intro image](https://hjmh.github.io/ethoVR/assets/DemoImage.png)
+##### An example application where a fly explored an immersive visual virtual reality during simultaneous two-photon calcium imaging.
 
-<button class="btn js-toggle-dark-mode">Switch to dark scheme</button>
+This documentation is meant as a practical guide for scientists to set up their own Unity-based virtual reality system using modules from the Janelia Unity Toolkit. In addition to "How-to guides" for the modular software, this website provides information to hardware, design files for custom 3D printed parts and assembly instructions.
 
-<script>
-const toggleDarkMode = document.querySelector('.js-toggle-dark-mode');
-
-jtd.addEvent(toggleDarkMode, 'click', function(){
-  if (jtd.getTheme() === 'dark') {
-    jtd.setTheme('light');
-    toggleDarkMode.textContent = 'Switch to dark scheme';
-  } else {
-    jtd.setTheme('dark');
-    toggleDarkMode.textContent = 'Switch to light scheme';
-  }
-});
-</script>
-
-This documentation is meant as a practical guide to help you set up your own Unity-based virtual reality using modules from the Janelia Unity Toolkit. In addition to "How-to guides", this website provides information to hardware, design files for custom 3D printed parts and assembly instructions.
-
-A neuroscience project using this virtual reality system is described here: [Haberkern et al, bioRxiv, 2022](https://biorxiv.org/content/10.1101/2022.05.17.492284v1.full).
+A neuroscience project using this virtual reality system is described in [Haberkern et al, bioRxiv, 2022](https://biorxiv.org/content/10.1101/2022.05.17.492284v1.full).
