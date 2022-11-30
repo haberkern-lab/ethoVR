@@ -31,6 +31,7 @@ The projectors are mounted in a fixed position relative to the screen, such that
 *	6x [0.1875in #4-40 flat head screws](https://www.mcmaster.com/91500A120/)
 
 **3D printed parts**
+Use an SLA, MJF or SLS printer.
 *	2x 3d printed [screen holder](https://hjmh.github.io/ethoVR/assets/modelfiles/WIDE SCREEN HOLDER 2x.stl) parts with holes tapped for 4-40 thread
 *	3x [screen assembly guide](https://hjmh.github.io/ethoVR/assets/modelfiles/SCREEN ASSEMBLY GUIDE.stl) (printed or lasercut and used during assembly only)
 *	1x [Bottom Screen Support Frame](https://hjmh.github.io/ethoVR/assets/modelfiles/BOTTOM SCREEN SUPPORT FRAME.stl)
@@ -44,7 +45,7 @@ The projectors are mounted in a fixed position relative to the screen, such that
 
 Screen material: [Item # V-H105-CV07](https://www.brightviewtechnologies.com/products/all-products/volumetric-diffusers)
 Screen dimensions:
-[dimensions](https://hjmh.github.io/ethoVR/assets/modelfiles/SCREEN FOLD PATTERN.pdf)
+[see here](https://hjmh.github.io/ethoVR/assets/modelfiles/SCREEN FOLD PATTERN.pdf)
 
 ## Screen assembly
 1. Assemble the wide screen holders and 2 thorlabs MSR3 posts with the 4-40 screws.

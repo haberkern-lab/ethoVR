@@ -18,6 +18,13 @@ nav_order: 3
 
 The modification instructions below are for the DLPDLCR2010EVM model by Texas Instuments. Some of the steps might be applicable to other models, other steps might require extensive adjustments.
 
+Parts should be printed with an SLA, MJF or SLS printer. If needed there are online [printing services](https://www.hubs.com/3d-printing/).
+
+A modification guide for the DLP LightCrafter Display 3010EVM-G2 (TI DLPDLC3010EVM-G2) can be found [here](https://hjmh.github.io/ethoVR/assets/otherdocs/TI DLPDLC3010EVM-G2 modification guide.pdf). It includes the following custom-designed 3D printed parts:
+*	1x [PCB brace](https://hjmh.github.io/ethoVR/assets/modelfiles/PCB BRACE.stl)
+*	1x [light guide adapter](https://hjmh.github.io/ethoVR/assets/modelfiles/LIGHT GUIDE ADAPTER.stl)
+*	1x [Vertical Mounting Plate](https://hjmh.github.io/ethoVR/assets/modelfiles/3010 MOUNT PLATE.stl)
+*	1x [Retaining bracket](https://hjmh.github.io/ethoVR/assets/modelfiles/3010 MOUNT PLATE RETAINER FIXED.stl)
 ---
 
 ## Disassembly
