@@ -33,6 +33,11 @@ We use [FicTrac](https://github.com/rjdmoore/fictrac) (Moore et al., 2014) to ca
 #### Tracking camera
 Illuminated the ball in infrared and used a high-speed camera (Grasshopper3 GS3-U3-23S6M, 2.3 MP, Teledyne FLIR, Wilsonville, OR, USA) to film the ball at a slightly higher frame rate than the intended frame rate of the VR system (the frame rate of the display). In our hands, a frame rate of 150 Hz worked well, but higher frame rates occasionally caused delays in the image processing and consequently in delayed VR updates.
 
+For the illumination of the ball, IR LEDs with custom wiring work well:
+* 2 X 850 nm, focused LEDs: [LED851L](https://www.thorlabs.com/thorproduct.cfm?partnumber=LED851L) from ThorLabs
+* 1 x LED controller: [SLA-100-2](http://www.mightexsystems.com/family_info.php?cPath=4_53_22&categories_id=22) from Mightex
+The LEDs should be wired in series so that they both received the same amount of current. They were mounted to rail carriages with stiff wire so that they were in line with the cameras, and adjusted so that they sat below the camera line of sight and pointing up, illuminating the ball centre.
+
 #### Treadmill ball
 For the ball we use polyurethane foam from general plastics' [LAST-A-FOAM FR 7100 series](https://www.generalplastics.com/products/fr-7100). This product series includes foams of different densities. The density of the foam affects the ball weight and inertia and as a consequence the fly's walking behaviour. We have primarily used  **FR-7120** (20 lbs/ft3) and  **FR-7110** (10 lbs/ft3). We use the higher density material for the smaller balls (6 mm) and the lower density material for larger balls (8-9 mm).
 
