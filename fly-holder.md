@@ -28,8 +28,11 @@ Some tips on materials to use for building a fly tether and "pyramid" for behavi
 **For a holder on which the tether can be mounted**
 
 * Post that serves as [tether holder](https://www.thorlabs.com/newgrouppage9.cfm?objectgroup_id=1257): Mini Series Mounting Posts, Ø6 mm, L = 3" (Product #: MS3R)
-Possible alternative: 464 Brass Round Rod, Unpolished (Mill) Finish, H02 Temper, ASTM B21, 0.25" Diameter, 84" Length (https://www.amazon.com/dp/B003JP6DE0/ref=biss_dp_t_asn, Product #: 13440 )
-Possible alternative: Eowpower 2pcs Brass Round Rods Lathe Bar Stock 1/4 Inch Diameter 14 Inch Length (https://www.amazon.com/Eowpower-Brass-Round-Diameter-Length/dp/B0748DQ1MP/ref=sr_1_2?ie=UTF8&qid=1504842092&sr=8-2&keywords=464+Brass+Round+Rod%2C, Product #: 02-001-015)
+
+- Possible alternative 1: 464 Brass Round Rod, Unpolished (Mill) Finish, H02 Temper, ASTM B21, 0.25" Diameter, 84" Length (https://www.amazon.com/dp/B003JP6DE0/ref=biss_dp_t_asn, Product #: 13440 )
+
+- Possible alternative 2: Eowpower 2pcs Brass Round Rods Lathe Bar Stock 1/4 Inch Diameter 14 Inch Length (https://www.amazon.com/Eowpower-Brass-Round-Diameter-Length/dp/B0748DQ1MP/ref=sr_1_2?ie=UTF8&qid=1504842092&sr=8-2&keywords=464+Brass+Round+Rod%2C, Product #: 02-001-015)
+
 * Adapter piece, in which the tether can secured and which is to be mounted on the post: Socket Contact Gold Crimp 20-24 AWG Machined (from Digikey, Catalog #: A2161-ND)
 
 
