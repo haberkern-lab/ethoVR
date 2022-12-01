@@ -25,6 +25,7 @@ A modification guide for the DLP LightCrafter Display 3010EVM-G2 (TI DLPDLC3010E
 *	1x [light guide adapter](https://hjmh.github.io/ethoVR/assets/modelfiles/LIGHT GUIDE ADAPTER.stl)
 *	1x [Vertical Mounting Plate](https://hjmh.github.io/ethoVR/assets/modelfiles/3010 MOUNT PLATE.stl)
 *	1x [Retaining bracket](https://hjmh.github.io/ethoVR/assets/modelfiles/3010 MOUNT PLATE RETAINER FIXED.stl)
+
 ---
 
 ## Disassembly
