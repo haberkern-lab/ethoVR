@@ -90,6 +90,7 @@ Note that quantities are listed per projector assembly.
 * 1x [Thorlabs KM100 mount](https://www.thorlabs.com/thorproduct.cfm?partnumber=KM100)
 * 1x [Thorlabs post](https://www.thorlabs.com/thorproduct.cfm?partnumber=TR3)
 * 1x [Thorlabs post holder](https://www.thorlabs.com/thorproduct.cfm?partnumber=UPH3)
+* 1x [Liquid Light Guide](https://www.thorlabs.com/thorproduct.cfm?partnumber=LLG5-6H): LLG5-6H - Liquid Light Guide, Ø5 mm Core, 340 - 800 nm
 
 **3d Printed Parts**
 These should be printed on a resin or polyjet printer for accuracy.
