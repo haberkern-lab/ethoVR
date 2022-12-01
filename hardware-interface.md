@@ -6,7 +6,10 @@ permalink: /hardware
 ---
 # Hardware interface
 {: .no_toc }
-Information on how to establish an interface between various hardware components to e.g. synchronize the virtual reality (VR) with a microscope, trigger optogenetic stimulation and read in positional updates from a treadmill tracking system (Fictrac).
+Help on how to establish an interface between various hardware components, for example:
+* synchronize the virtual reality (VR) with a microscope
+* trigger optogenetic stimulation,
+* read in positional updates from a treadmill tracking system (Fictrac)
 {: .fs-6 .fw-300 }
 
 Our VR setups consisted of a spherical treadmill and a panoramic screen in addition to the VR software. For further information on how to design a polygonal, projector-based display, see [Display](../display). On this page, you  will find information on how to use FicTrac and a National Instruments (NIDaq) board together with the Janelia Unity Toolkit VR. There is some degree of flexibility to accommodate different hardware configurations compared to the onese described here.
@@ -31,6 +34,8 @@ We use [FicTrac](https://github.com/rjdmoore/fictrac) (Moore et al., 2014) to ca
 Illuminated the ball in infrared and used a high-speed camera (Grasshopper3 GS3-U3-23S6M, 2.3 MP, Teledyne FLIR, Wilsonville, OR, USA) to film the ball at a slightly higher frame rate than the intended frame rate of the VR system (the frame rate of the display). In our hands, a frame rate of 150 Hz worked well, but higher frame rates occasionally caused delays in the image processing and consequently in delayed VR updates.
 
 #### Treadmill ball
+For the ball we use polyurethane foam from general plastics' [LAST-A-FOAM FR 7100 series](https://www.generalplastics.com/products/fr-7100). This product series includes foams of different densities. The density of the foam affects the ball weight and inertia and as a consequence the fly's walking behaviour. We have primarily used  **FR-7120** (20 lbs/ft3) and  **FR-7110** (10 lbs/ft3). We use the higher density material for the smaller balls (6 mm) and the lower density material for larger balls (8-9 mm).
+
 Tracking with FicTrac requires the ball surface to be patterned such that there is a unique pattern for each orientation. We **painted high-contrast patterns on the ball** with black acrylic paint on a red base coat (Premiere Acrylic Colour, Laurel, NJ, USA). This coat of acrylic paint also helped to reduce noise from the ball during calcium imaging.
 
 #### Fictrac settings
