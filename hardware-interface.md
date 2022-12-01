@@ -7,10 +7,11 @@ permalink: /hardware
 # Hardware interface
 {: .no_toc }
 Help on how to establish an interface between various hardware components, for example:
+{: .fs-6 .fw-300 }
 * synchronize the virtual reality (VR) with a microscope
 * trigger optogenetic stimulation,
 * read in positional updates from a treadmill tracking system (Fictrac)
-{: .fs-6 .fw-300 }
+
 
 Our VR setups consisted of a spherical treadmill and a panoramic screen in addition to the VR software. For further information on how to design a polygonal, projector-based display, see [Display](../display). On this page, you  will find information on how to use FicTrac and a National Instruments (NIDaq) board together with the Janelia Unity Toolkit VR. There is some degree of flexibility to accommodate different hardware configurations compared to the onese described here.
 
