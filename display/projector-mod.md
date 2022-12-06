@@ -57,11 +57,11 @@ First, make sure all power is disconnected and you are properly grounded to prev
 * 2x [#00-96 screws](https://www.mcmaster.com/92453A862/)
 * [VHB tape](https://www.mcmaster.com/75935A12/)
 
-**3d printed parts**
-* 1x PROJECTOR MOUNT FOR ADJ XY LLG
-* 1x PROJECTOR LIGHTBLOCK (Optional, simpler methods for blocking board LEDs exist)
-* 1x FLYVR PIVOT MOUNTPLATE
-* 1x CORNER FLYVR PIVOT MOUNTPLATE (Optional, helpful if space is limited)
+**3d printed parts (per projector)**
+* 1x [PROJECTOR MOUNT FOR ADJ XY LLG](https://hjmh.github.io/ethoVR/assets/modelfiles/PROJECTOR MOUNT FOR ADJ XY LLG V2.stl)
+* 1x [PROJECTOR LIGHTBLOCK](https://hjmh.github.io/ethoVR/assets/modelfiles/PROJECTOR LIGHTBLOCK 2.stl) (Optional, simpler methods for blocking board LEDs exist)
+* 1x [FLYVR PIVOT MOUNTPLATE](https://hjmh.github.io/ethoVR/assets/modelfiles/FLYVR PIVOT MOUNTPLATE.stl)
+* 1x [CORNER FLYVR PIVOT MOUNTPLATE](https://hjmh.github.io/ethoVR/assets/modelfiles/CORNER FLYVR PIVOT MOUNTPLATE v2.stl) (Optional, helpful if space is limited)
 
 **Modification steps**
 1. Prepare the PROJECTOR MOUNT FOR ADJ XY LLG for assembly by using the #00-96 screws to cut threads into the printed holes and tap the hole on the vertical face for a #4-40 screw.
@@ -95,10 +95,10 @@ Note that quantities are listed per projector assembly.
 
 **3d Printed Parts**
 These should be printed on a resin or polyjet printer for accuracy.
-* 1x XY SLIDE BOTTOM
-* 1x XY SLIDE TOP
-*	1x XY SLIDE PLATE
-*	4x XY LINEAR GUIDE BLOCKS
+* 1x [XY SLIDE BOTTOM](https://hjmh.github.io/ethoVR/assets/modelfiles/XY SLIDE BOTTOM.stl)
+* 1x [XY SLIDE TOP](https://hjmh.github.io/ethoVR/assets/modelfiles/XY SLIDE TOP.stl)
+* 1x [XY SLIDE PLATE](https://hjmh.github.io/ethoVR/assets/modelfiles/XY SLIDE PLATE.stl)
+* 4x [XY LINEAR GUIDE BLOCKS](https://hjmh.github.io/ethoVR/assets/modelfiles/XY LINEAR GUIDE BLOCKS.stl)
 
 
 **Liquid light guide alignment fabrication**
