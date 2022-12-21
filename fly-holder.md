@@ -39,7 +39,29 @@ Some tips on materials to use for building a fly tether and "pyramid" for behavi
 ### Tethering a fly
 For gluing the tether to the thorax, we use KOA 300 (KEMXERT, York, PA, USA). In the second step, when we glue the head to the holder (which also fixes the head to the throax), we use a different UV curable glue: Fotoplast Gel from Dreve (Dreve Dentamid GmbH, Unna, Germany).
 
-## Fly pyramid (for imaging experiments)
+## Fly pyramid (for imaging experiments in walking flies)
 
-### ...
-....
+### Frame and metal pyrmid to which the fly is attached
+**Frame**
+3D print this piece, which will work as a frame and holder for the metal pyramid:
+[ipt](../assets/flyholder/FlyHolder_PyramidMount_V3_WIDEVIEW.ipt), [stl](../assets/flyholder/FlyHolder_PyramidMount_V3_WIDEVIEW.stl), or [stp](../assets/flyholder/FlyHolder_PyramidMount_V3_WIDEVIEW.stp) files.
+
+**Metal pyramid**
+Cut this piece from thin metal sheet:
+[ipt](../assets/flyholder/METAL FLY PYRAMID CENTERED V2.ipt), or [dxf](../assets/flyholder/METAL FLY PYRAMID CENTERED V2.dxf) files.
+
+Then carefully fold the pyramid into shape along the etched edges. After folding, glue the pyramid into the 3D-printed frame with a water-resistant glue.
+
+### Holder for the pyramid frame with xyz-stage and tether
+**Commercial parts**
+* XYZ translation stage from thorlabs: T12XYZ - Miniature 1/2" Translator
+* Post (tether) holder: Siskiyou (MXC-2.5)($110.00)
+* Magnetic mount from thorlabs: Kinematic base, e.g. KB1X1 (25 mm x 25 mm)
+* Post for holding the tether
+* Tube on post into which to insert the tether: [A2161-ND] (https://www.digikey.com/product-detail/en/te-connectivity-aerospace-defense-and-marine/205090-1/A2161-ND/132232)
+* tether base: [A2160-ND](https://www.digikey.com/products/en?keywords=A2160-ND)
+
+**Custom parts**
+* Aluminum connector piece (between translation stage and post holder): see specs below
+
+
