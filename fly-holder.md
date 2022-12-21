@@ -60,5 +60,6 @@ Then carefully fold the pyramid into shape along the etched edges. After folding
 * tether base: [A2160-ND](https://www.digikey.com/products/en?keywords=A2160-ND)
 
 **Custom parts**
-* Aluminum connector piece (between translation stage and post holder): see specs below
+* Aluminum connector piece (between translation stage and post holder)
+
 ![connector piece](https://hjmh.github.io/ethoVR/assets/flyholder/flyholder_connector2.png)
