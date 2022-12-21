@@ -42,11 +42,11 @@ For gluing the tether to the thorax, we use KOA 300 (KEMXERT, York, PA, USA). In
 ### Frame and metal pyrmid to which the fly is attached
 **Frame**
 3D print this piece, which will work as a frame and holder for the metal pyramid:
-[ipt](../assets/flyholder/FlyHolder_PyramidMount_V3_WIDEVIEW.ipt), [stl](../assets/flyholder/FlyHolder_PyramidMount_V3_WIDEVIEW.stl), or [stp](../assets/flyholder/FlyHolder_PyramidMount_V3_WIDEVIEW.stp) files.
+[ipt](https://hjmh.github.io/ethoVR/assets/flyholder/FlyHolder_PyramidMount_V3_WIDEVIEW.ipt), [stl](https://hjmh.github.io/ethoVR/assets/flyholder/FlyHolder_PyramidMount_V3_WIDEVIEW.stl), or [stp](https://hjmh.github.io/ethoVR/assets/flyholder/FlyHolder_PyramidMount_V3_WIDEVIEW.stp) files.
 
 **Metal pyramid**
 Cut this piece from thin metal sheet:
-[ipt](../assets/flyholder/METAL FLY PYRAMID CENTERED V2.ipt), or [dxf](../assets/flyholder/METAL FLY PYRAMID CENTERED V2.dxf) files.
+[ipt](https://hjmh.github.io/ethoVR/assets/flyholder/METAL FLY PYRAMID CENTERED V2.ipt), or [dxf](https://hjmh.github.io/ethoVR/assets/flyholder/METAL FLY PYRAMID CENTERED V2.dxf) files.
 
 Then carefully fold the pyramid into shape along the etched edges. After folding, glue the pyramid into the 3D-printed frame with a water-resistant glue.
 
@@ -61,4 +61,4 @@ Then carefully fold the pyramid into shape along the etched edges. After folding
 
 **Custom parts**
 * Aluminum connector piece (between translation stage and post holder): see specs below
-![connector piece](../../assets/flyholder/flyholder_connector2.png)
+![connector piece](../assets/flyholder/flyholder_connector2.png)
