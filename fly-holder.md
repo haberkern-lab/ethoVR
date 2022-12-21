@@ -53,7 +53,7 @@ Then carefully fold the pyramid into shape along the etched edges. After folding
 ### Holder for the pyramid frame with xyz-stage and tether
 **Commercial parts**
 * XYZ translation stage from thorlabs: T12XYZ - Miniature 1/2" Translator
-* Post (tether) holder: Siskiyou (MXC-2.5)($110.00)
+* Post (tether) holder: Siskiyou (MXC-2.5)
 * Magnetic mount from thorlabs: Kinematic base, e.g. KB1X1 (25 mm x 25 mm)
 * Post for holding the tether
 * Tube on post into which to insert the tether: [A2161-ND](https://www.digikey.com/product-detail/en/te-connectivity-aerospace-defense-and-marine/205090-1/A2161-ND/132232)
