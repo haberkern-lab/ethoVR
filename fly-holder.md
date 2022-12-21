@@ -61,4 +61,4 @@ Then carefully fold the pyramid into shape along the etched edges. After folding
 
 **Custom parts**
 * Aluminum connector piece (between translation stage and post holder): see specs below
-![connector piece](../assets/flyholder/flyholder_connector2.png)
+![connector piece](https://hjmh.github.io/ethoVR/assets/flyholder/flyholder_connector2.png)
