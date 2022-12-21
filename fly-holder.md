@@ -28,10 +28,8 @@ Some tips on materials to use for building a fly tether and "pyramid" for behavi
 **For a holder on which the tether can be mounted**
 
 * Post that serves as [tether holder](https://www.thorlabs.com/newgrouppage9.cfm?objectgroup_id=1257): Mini Series Mounting Posts, Ø6 mm, L = 3" (Product #: MS3R)
-
-- Possible alternative 1: 464 Brass Round Rod, Unpolished (Mill) Finish, H02 Temper, ASTM B21, 0.25" Diameter, 84" Length (https://www.amazon.com/dp/B003JP6DE0/ref=biss_dp_t_asn, Product #: 13440 )
-
-- Possible alternative 2: Eowpower 2pcs Brass Round Rods Lathe Bar Stock 1/4 Inch Diameter 14 Inch Length (https://www.amazon.com/Eowpower-Brass-Round-Diameter-Length/dp/B0748DQ1MP/ref=sr_1_2?ie=UTF8&qid=1504842092&sr=8-2&keywords=464+Brass+Round+Rod%2C, Product #: 02-001-015)
+- Possible alternative 1: [464 Brass Round Rod](https://www.amazon.com/dp/B003JP6DE0/ref=biss_dp_t_asn), Unpolished (Mill) Finish, H02 Temper, ASTM B21, 0.25" Diameter, 84" Length (Product #: 13440)
+- Possible alternative 2: [Eowpower 2pcs Brass Round Rods](https://www.amazon.com/Eowpower-Brass-Round-Diameter-Length/dp/B0748DQ1MP/ref=sr_1_2?ie=UTF8&qid=1504842092&sr=8-2&keywords=464+Brass+Round+Rod%2C) Lathe Bar Stock 1/4 Inch Diameter 14 Inch Length (Product #: 02-001-015)
 
 * Adapter piece, in which the tether can secured and which is to be mounted on the post: Socket Contact Gold Crimp 20-24 AWG Machined (from Digikey, Catalog #: A2161-ND)
 
@@ -58,10 +56,9 @@ Then carefully fold the pyramid into shape along the etched edges. After folding
 * Post (tether) holder: Siskiyou (MXC-2.5)($110.00)
 * Magnetic mount from thorlabs: Kinematic base, e.g. KB1X1 (25 mm x 25 mm)
 * Post for holding the tether
-* Tube on post into which to insert the tether: [A2161-ND] (https://www.digikey.com/product-detail/en/te-connectivity-aerospace-defense-and-marine/205090-1/A2161-ND/132232)
+* Tube on post into which to insert the tether: [A2161-ND](https://www.digikey.com/product-detail/en/te-connectivity-aerospace-defense-and-marine/205090-1/A2161-ND/132232)
 * tether base: [A2160-ND](https://www.digikey.com/products/en?keywords=A2160-ND)
 
 **Custom parts**
 * Aluminum connector piece (between translation stage and post holder): see specs below
-
-
+![connector piece](../../assets/flyholder/flyholder_connector2.png)
