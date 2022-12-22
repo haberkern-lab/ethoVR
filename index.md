@@ -15,9 +15,14 @@ This documentation is meant as a practical guide for scientists to set up their 
 
 
 If you use tools described on this website, please reference the following manuscript:
-[Maintaining a stable head direction representation in naturalistic visual environments](https://biorxiv.org/content/10.1101/2022.05.17.492284v1.full).
-Hannah Haberkern, Shivam S Chitnis, Philip M Hubbard, Tobias Goulet, Ann M Hermundstad, Vivek Jayaraman
-bioRxiv 2022.05.17.492284; doi: https://doi.org/10.1101/2022.05.17.492284
+> [Maintaining a stable head direction representation in naturalistic visual environments](https://biorxiv.org/content/10.1101/2022.05.17.492284v1.full).
+> Hannah Haberkern, Shivam S Chitnis, Philip M Hubbard, Tobias Goulet, Ann M Hermundstad, Vivek Jayaraman
+> bioRxiv 2022.05.17.492284; doi: https://doi.org/10.1101/2022.05.17.492284
+
+For the Janelia Unity Toolkit, please cite the following DOI:
+> Philip Hubbard. (2022). 
+> JaneliaSciComp/janelia-unity-toolkit: v1.1.0 (v1.1.0). 
+> Zenodo. https://doi.org/10.5281/zenodo.7032144
 
 
 The Janelia Unity Toolkit provides software packages that extend Unity functionality in a modular manner to accommodate specialized needs for applications of virtual reality to neuroscience and (neuro-)ethology. These packages allow precise control of frame rate, setup of a panoramic display, a connection with FicTrac via socket connection, custom collision handling, data logging and more. In addition, here we provide information on building hardware for a virtual reality system that permits neural recordings in behaving insects.
