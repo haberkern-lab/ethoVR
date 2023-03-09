@@ -1,0 +1,4 @@
+I think it is probably best to buy an off the shelf water cooling block and attach it to a modified existing projector heatsink. This will maximize the heat transfer from the projector, and would involve:
+- buying four of these water blocks ( https://customthermoelectric.com/water-block-1-0-x-1-0-x-0-49-copper.html) .
+-removing , modifying the existing projector heatsinks, and adding the water blocks to them.
+-plumbing these water blocks up to a small radiator ( I think we have one in jET to try)
