@@ -24,11 +24,12 @@ For the first itteration fo the virtual reality system we decided to use the  DL
 * small form factor,
 * high refresh rate (240 Hz), and
 * low cost (~500 $ depending on reseller).
+
 Unfortunately, it is now discontinued, but see below for possible replacement options.
 
 ### Technical overview
 * DLP DMD: DLP2010 .2 WXGA
-* DLD support chip: DLPC3435 Digital Controller (http://www.ti.com/product/DLPC3435, http://www.ti.com/lit/ds/symlink/dlpc3435.pdf )
+* DLD support chip: [DLPC3435 Digital Controller](http://www.ti.com/product/DLPC3435), [see also](http://www.ti.com/lit/ds/symlink/dlpc3435.pdf)
 * LED driver: DLPA2005
 * Resolution: 854 x 480
 * Wavelength: for visible light
