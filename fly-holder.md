@@ -40,11 +40,18 @@ For gluing the tether to the thorax, we use KOA 300 (KEMXERT, York, PA, USA). In
 ## Fly pyramid (for imaging experiments in walking flies)
 
 ### Frame and metal pyrmid to which the fly is attached
+
 **Frame**
+
 3D print this piece, which will work as a frame and holder for the metal pyramid:
 [ipt](https://hjmh.github.io/ethoVR/assets/flyholder/FlyHolder_PyramidMount_V3_WIDEVIEW.ipt), [stl](https://hjmh.github.io/ethoVR/assets/flyholder/FlyHolder_PyramidMount_V3_WIDEVIEW.stl), or [stp](https://hjmh.github.io/ethoVR/assets/flyholder/FlyHolder_PyramidMount_V3_WIDEVIEW.stp) files.
 
+The frame was optimized to give a large field of view while allowing access with a 40x objective positioned at a ~30 degree angle.
+![frame](https://hjmh.github.io/ethoVR/assets/flyholder/frame.png)
+![frame2](https://hjmh.github.io/ethoVR/assets/flyholder/frame2.png)
+
 **Metal pyramid**
+
 Cut this piece from thin metal sheet:
 [ipt](https://hjmh.github.io/ethoVR/assets/flyholder/METAL FLY PYRAMID CENTERED V2.ipt), or [dxf](https://hjmh.github.io/ethoVR/assets/flyholder/METAL FLY PYRAMID CENTERED V2.dxf) files.
 
