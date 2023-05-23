@@ -44,4 +44,4 @@ We tested the [EKB DLP LightCrafter E4500 UV-B-G](https://www.ekbtechnologies.co
 
 It is possible to show **single color 8-bit** images at 120 Hz in **pattern sequence mode**, albeit not reliably (on our test rig the frame rate averages closer to 90 Hz). Further, in pattern sequence mode, video input needs to have a 1140x 960 resolution, resulting in a large, distored image. Note that with "single color", we mean that only a single pattern is shown per frame. In pattern sequence mode it is possible to show this single pattern with multiple colors simultaneoulsy. Lowering the bit-depth and/or the pixel resolution may increase reliability and allow for display of multi-colored images, but we were not able to achieve this due to limitations in the graphics settings and we were not able to find examples of others succeeding at this either.
 
-We do not recommend these projectors for closed-loop virtual reality applications in insects. 
+We do not recommend these projectors for closed-loop virtual reality applications in insects.
