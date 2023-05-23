@@ -20,6 +20,8 @@ nav_order: 1
 Below are renderings of a pentagonal panoramic display with four projectors.
 The projectors are mounted in a fixed position relative to the screen, such that alignment only needs to happen once (ideally). The full setup (screen + projectors) are mounted on a movable stage such that they can be moved out of the way to make the ball and fly easily accessible and give space to potential other rig components (e.g. a feeding station).
 
+Note: It is of course also possible to use **computer monitors** or any other device that can be set up as an extended display, instead of projectors. Here we focus on projector-based displays as most people are less familiar with this option and because projector-displays have some advantages: they are easily customizable for different wavelengths, can be modified to run monochromatically for frame packing and thus are convenient when used inside an imaging rig.
+
 ![Frontal view](https://hjmh.github.io/ethoVR/assets/displayLayout_front.png)
 ![Top view](https://hjmh.github.io/ethoVR/assets/displayLayout_top.png)
 ![Side view](https://hjmh.github.io/ethoVR/assets/displayLayout_side.png)
