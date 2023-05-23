@@ -106,7 +106,7 @@ Without this change, System.IO.Ports will not be found, and the Unity editor wil
 
 #### Adjoining Displays Camera
 * Navigate to the Packages → Janelia Camera Utilities → Runtime folder. Select the AdjoiningDisplaysCamera script and attach it to the main camera object.
-* In the new inspector panel, expand the field “Display Cameras”. In the submenu, you should see as many fields as “fly cameras” were generated with “Setup Cameras N-gon”. Drag the “fly cameras” into the fields in the order that matches the order of display ids. *In my case this is simply 1,2,3,4.*
+* In the new inspector panel, expand the field “Display Cameras”. In the submenu, you should see as many fields as “fly cameras” were generated with “Setup Cameras N-gon”. Drag the “fly cameras” into the fields in the order that matches the order of display ids. *In my case this is simply 1,2,3,4.* Make sure that the number of "Display Cameras" matches the number of projectors/monitors.
 * Enter the display dimensions of each projector display in pixels for”Display Width” and “Display Height”. *For my setup this is width = 480, height = 720 pixels. If the projectors have no built-in correction for back-projection, turn on mirror.*
 * Use the “Progress Box…” (=Frame rate indicator) items to set up the little window that flickers black on even frames, white on odd. *Set to LOWER_LEFT, screen 1, 70 px*
 
