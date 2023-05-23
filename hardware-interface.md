@@ -23,15 +23,12 @@ Our VR setups consisted of a spherical treadmill and a panoramic screen in addit
 
 ---
 
-## Closed-loop updates of the animals virtual position using FicTrack
-
-### Spherical treadmill
+## Closed-loop updates of the animals virtual position using a spherical treadmill and FicTrack
 We use a spherical treadmill for tracking walking behavior as described in detail in (Seelig et al., 2010). The ball was machine-cut from polyurethane foam (FR-7110, Last-A-Foam, General Plastics Manufacturing Company, Tacoma, WA, USA), weighted about 50 mg, and had a diameter of about 9 mm. The ball was resting on an air cushion maintained by a constant air flow (0.55 l/min, controlled with a mass flow controller by Alicat Scientific, Tucson, AZ, USA) to ensure low-friction rotations.
 
-### Tracking of ball rotations with FicTrac
-We use [FicTrac](https://github.com/rjdmoore/fictrac) (Moore et al., 2014) to capture ball rotations due to the animal's walking maneuvres. FicTrac is an open-source, video-based ball tracking system. Full documentation for how to set up and use FicTrac can be found on [their website](https://github.com/rjdmoore/fictrac). We set up FicTrac to send the output to a socket port, where it could be read out by the VR software.
+To capture ball rotations created by the animal's walking maneuvres, we use [FicTrac](https://github.com/rjdmoore/fictrac) (Moore et al., 2014). FicTrac is an open-source, video-based ball tracking system. Full documentation for how to set up and use FicTrac can be found on [their website](https://github.com/rjdmoore/fictrac). We set up FicTrac to send the output to a socket port, where it could be read out by the VR software.
 
-#### Tracking camera
+### Tracking camera
 Illuminated the ball in infrared and used a high-speed camera (Grasshopper3 GS3-U3-23S6M, 2.3 MP, Teledyne FLIR, Wilsonville, OR, USA) to film the ball at a slightly higher frame rate than the intended frame rate of the VR system (the frame rate of the display). In our hands, a frame rate of 150 Hz worked well, but higher frame rates occasionally caused delays in the image processing and consequently in delayed VR updates.
 
 For the illumination of the ball, IR LEDs with custom wiring work well:
@@ -39,12 +36,12 @@ For the illumination of the ball, IR LEDs with custom wiring work well:
 * 1 x LED controller: [SLA-100-2](http://www.mightexsystems.com/family_info.php?cPath=4_53_22&categories_id=22) from Mightex
 The LEDs should be wired in series so that they both received the same amount of current. They were mounted to rail carriages with stiff wire so that they were in line with the cameras, and adjusted so that they sat below the camera line of sight and pointing up, illuminating the ball centre.
 
-#### Treadmill ball
+### Treadmill ball
 For the ball we use polyurethane foam from general plastics' [LAST-A-FOAM FR 7100 series](https://www.generalplastics.com/products/fr-7100). This product series includes foams of different densities. The density of the foam affects the ball weight and inertia and as a consequence the fly's walking behaviour. We have primarily used  **FR-7120** (20 lbs/ft3) and  **FR-7110** (10 lbs/ft3). We use the higher density material for the smaller balls (6 mm) and the lower density material for larger balls (8-9 mm).
 
 Tracking with FicTrac requires the ball surface to be patterned such that there is a unique pattern for each orientation. We **painted high-contrast patterns on the ball** with black acrylic paint on a red base coat (Premiere Acrylic Colour, Laurel, NJ, USA). This coat of acrylic paint also helped to reduce noise from the ball during calcium imaging.
 
-#### Fictrac settings
+### Fictrac settings
 Fictrac settings are saved in a config file, which is passed to FicTrac via the command line when starting the application. Most settings will be set through the configuration routine. However, some settings have to be manually added or edited. A full list of the parameters and explanations can be found [here](https://github.com/rjdmoore/fictrac/blob/master/doc/params.md).Below is an explanation of what we found to be important.
 
 * vfov: vertical FOV of the input images in degrees. You can estimate this by measuring the distance of the camera to the ball and the height of the image at the ball (ruler in camera view). For example:  distance = 16 cm, height = 0.9 cm → ~3.22 degree (empirically 3.35 worked well for us)
@@ -56,18 +53,23 @@ Fictrac settings are saved in a config file, which is passed to FicTrac via the 
 
 Note: for some reason the ball radius seems to reset when manually editing the config file. Quickly go through the configuration procedure to reset.
 
+An example settings file can be found [here](https://hjmh.github.io/ethoVR/assets/fictrac/grasshop_socket_config.txt)
+
 The camera's reference frame is defined as:
-X = image right (cols);
-Y = image down (rows);
-Z = into image (out from camera)
+* X = image right (cols);
+* Y = image down (rows);
+* Z = into image (out from camera)
 
 The animal's reference frame is defined as:
-X = forward
-Y = right
-Z = down
+* X = forward
+* Y = right
+* Z = down
 
+![intro image](https://hjmh.github.io/ethoVR/assets/fictrac/fictrac-configImg.png)
 
 
 ## Interface with a NIDaq board
 
-NIDaq board (National Instruments, 781005-01 NI USB-6218 BNC BUS-POWERED M SE
+We have used the following data acquisition board from National Instruments:
+* 781005-01 NI USB-6218 BNC BUS-POWERED M SE
+* USB-6002
