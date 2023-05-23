@@ -24,6 +24,7 @@ Our VR setups consisted of a spherical treadmill and a panoramic screen in addit
 ---
 
 ## Closed-loop updates of the animals virtual position
+
 We use a spherical treadmill for tracking walking behavior as described in detail in (Seelig et al., 2010). The ball was machine-cut from polyurethane foam (FR-7110, Last-A-Foam, General Plastics Manufacturing Company, Tacoma, WA, USA), weighted about 50 mg, and had a diameter of about 9 mm. The ball was resting on an air cushion maintained by a constant air flow (0.55 l/min, controlled with a mass flow controller by Alicat Scientific, Tucson, AZ, USA) to ensure low-friction rotations.
 
 To capture ball rotations created by the animal's walking maneuvres, we use [FicTrac](https://github.com/rjdmoore/fictrac) (Moore et al., 2014). FicTrac is an open-source, video-based ball tracking system. Full documentation for how to set up and use FicTrac can be found on [their website](https://github.com/rjdmoore/fictrac). We set up FicTrac to send the output to a socket port, where it could be read out by the VR software.
@@ -53,7 +54,7 @@ Fictrac settings are saved in a config file, which is passed to FicTrac via the 
 
 Note: for some reason the ball radius seems to reset when manually editing the config file. Quickly go through the configuration procedure to reset.
 
-An example settings file can be found [here](https://hjmh.github.io/ethoVR/assets/fictrac/grasshop_socket_config.txt)
+An example settings file can be found [here](https://hjmh.github.io/ethoVR/assets/fictrac/grasshop_socket_config.txt).
 
 The camera's reference frame is defined as:
 * X = image right (cols);
