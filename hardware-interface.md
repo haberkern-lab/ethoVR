@@ -75,3 +75,5 @@ We have used the following data acquisition board from National Instruments:
 * 781005-01 NI USB-6218 BNC BUS-POWERED M SE
 * USB-6002
 * USB-6009
+
+An example for how to use the Unity-NIDaq interface can be found in the talk2NiDaqMx.cs script [here](https://github.com/hjmh/unityScripts).
