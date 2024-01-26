@@ -18,16 +18,18 @@ nav_order: 1
 
 ## Overview of the display design
 Below are renderings of a pentagonal panoramic display with four projectors.
-The projectors are mounted in a fixed position relative to the screen, such that alignment only needs to happen once (ideally). The full setup (screen + projectors) are mounted on a movable stage such that they can be moved out of the way to make the ball and fly easily accessible and give space to potential other rig components (e.g. a feeding station).
+The projectors are mounted in a fixed position relative to the screen, such that alignment only needs to happen once (ideally). The full setup (screen + projectors) are mounted on a movable stage such that they can be moved out of the way to make the ball and fly easily accessible and give space to potential other rig components (e.g. a feeding station). With the two-projector desgin the movable stage is optional, as the ball and fly are more easily accessible through the open back.
 
 Note: It is of course also possible to use **computer monitors** or any other device that can be set up as an extended display, instead of projectors. Here we focus on projector-based displays as most people are less familiar with this option and because projector-displays have some advantages: they are easily customizable for different wavelengths, can be modified to run monochromatically for frame packing and thus are convenient when used inside an imaging rig.
 
-![Frontal view](https://hjmh.github.io/ethoVR/assets/displayLayout_front.png)
-![Top view](https://hjmh.github.io/ethoVR/assets/displayLayout_top.png)
-![Side view](https://hjmh.github.io/ethoVR/assets/displayLayout_side.png)
+![Frontal view](https://hjmh.github.io/ethoVR/assets/display/4projectorScreen/displayLayout_front.png){ width=400px }
+![Top view](https://hjmh.github.io/ethoVR/assets/display/4projectorScreen/displayLayout_top.png){ width=400px }
+![Side view](https://hjmh.github.io/ethoVR/assets/display/4projectorScreen/displayLayout_side.png){ width=400px }
 
-## Partslist
+## Parts list
+
 ### 2-projector screen
+
 **Commercial parts**
 * 5x [thorlabs MS3R posts](https://www.thorlabs.com/thorproduct.cfm?partnumber=MS3R)
 *	10x [0.75in #4-40 flat head screws](https://www.mcmaster.com/91500A308/)
@@ -43,9 +45,11 @@ Use an SLA, MJF or SLS printer.
 **Lasercut parts**
 *	1x [fly holder centering aid](https://hjmh.github.io/ethoVR/assets/modelfiles/CENTERFINDING JIG.stl): This helps with positioning the screen in a way that it is centered around the fly/ball holder.
 
+
 ### 3-projector screen
+
 **Commercial parts**
-* 5x [thorlabs MS3R posts](https://www.thorlabs.com/thorproduct.cfm?partnumber=MS3R)
+* 6x [thorlabs MS3R posts](https://www.thorlabs.com/thorproduct.cfm?partnumber=MS3R)
 *	10x [0.75in #4-40 flat head screws](https://www.mcmaster.com/91500A308/)
 *	6x [0.1875in #4-40 flat head screws](https://www.mcmaster.com/91500A120/)
 
@@ -61,6 +65,7 @@ Use an SLA, MJF or SLS printer.
 
 
 ### 4-projector screen
+
 **Commercial parts**
 * 5x [thorlabs MS3R posts](https://www.thorlabs.com/thorproduct.cfm?partnumber=MS3R)
 *	10x [0.75in #4-40 flat head screws](https://www.mcmaster.com/91500A308/)
@@ -68,32 +73,32 @@ Use an SLA, MJF or SLS printer.
 
 **3D printed parts**
 Use an SLA, MJF or SLS printer.
-*	2x 3d printed [screen holder](https://hjmh.github.io/ethoVR/assets/modelfiles/WIDE SCREEN HOLDER 2x.stl) parts with holes tapped for 4-40 thread
-*	3x [screen assembly guide](https://hjmh.github.io/ethoVR/assets/modelfiles/SCREEN ASSEMBLY GUIDE.stl) (printed or lasercut and used during assembly only)
-*	1x [Bottom Screen Support Frame](https://hjmh.github.io/ethoVR/assets/modelfiles/BOTTOM SCREEN SUPPORT FRAME.stl)
-*	1x [Top Screen Support Frame](https://hjmh.github.io/ethoVR/assets/modelfiles/TOP SCREEN SUPPORT FRAME.stl)
+*	2x 3d printed [screen holder](https://hjmh.github.io/ethoVR/assets/display/4projectorScreen/WIDE SCREEN HOLDER 2x.stl) parts with holes tapped for 4-40 thread
+*	3x [screen assembly guide](https://hjmh.github.io/ethoVR/assets/display/4projectorScreen/SCREEN ASSEMBLY GUIDE.stl) (printed or lasercut and used during assembly only)
+*	1x [Bottom Screen Support Frame](https://hjmh.github.io/ethoVR/assets/display/4projectorScreen/BOTTOM SCREEN SUPPORT FRAME.stl)
+*	1x [Top Screen Support Frame](https://hjmh.github.io/ethoVR/assets/display/4projectorScreen/TOP SCREEN SUPPORT FRAME.stl)
 
 **Lasercut parts**
-*	1x [fly holder centering aid](https://hjmh.github.io/ethoVR/assets/modelfiles/CENTERFINDING JIG.stl): This helps with positioning the screen in a way that it is centered around the fly/ball holder.
+*	1x [fly holder centering aid](https://hjmh.github.io/ethoVR/assets/display/4projectorScreen/CENTERFINDING JIG.stl): This helps with positioning the screen in a way that it is centered around the fly/ball holder.
 
-### For all
+### All screen geometries
 **Screen material**
 *	1x precut screen sheet with at least 1/8in extra height and 1in length to trim after assembly. For the diffuser sheet, we recommend V-H105-CV07 or V-HHDE-PM06-S01-D01 from BrightView Technologies (Durham, NC, USA). Recommendations for projectors are listed [here].
 
 Screen material: [Item # V-H105-CV07](https://www.brightviewtechnologies.com/products/all-products/volumetric-diffusers)
 Screen dimensions:
-[see here](https://hjmh.github.io/ethoVR/assets/modelfiles/SCREEN FOLD PATTERN.pdf)
+[see here](https://hjmh.github.io/ethoVR/assets/display/4projectorScreen/SCREEN FOLD PATTERN.pdf)
 
 ## Screen assembly 
 Below the assembly is shown for 4-projector screen. It works very similar for the other two screen geometries.
 
 1. Assemble the wide screen holders and 2 thorlabs MSR3 posts with the 4-40 screws.
-  ![step 1](https://hjmh.github.io/ethoVR/assets/screenAssembly_step1.png)
+  ![step 1](https://hjmh.github.io/ethoVR/assets/display/4projectorScreen/screenAssembly_step1.png)
 2. Re-enforce the assembly with the screen assembly guides (slip fit, no glue).
-  ![step 2](https://hjmh.github.io/ethoVR/assets/screenAssembly_step2.png)
+  ![step 2](https://hjmh.github.io/ethoVR/assets/display/4projectorScreen/screenAssembly_step2.png)
 3. Pre-crease the screen and carefully to align it to the frame. Use superglue to adhere the centermost fold to the frame top and bottom being careful to maintain tension and alignment. Once dry, glue from the center out around the frame again. Be careful with the alignment to prevent bowing or wrinkles. Use binder clips to temporarily clamp the screen to the frame.
-  ![step 3](https://hjmh.github.io/ethoVR/assets/screenAssembly_step3.png)
+  ![step 3](https://hjmh.github.io/ethoVR/assets/display/4projectorScreen/screenAssembly_step3.png)
 4. After everything has dried, remove the assembly guides, trim the screen flush top and bottom and screw this sub assembly into the Bottom Screen Support Frame with 3 #4-40 0.1875" screws.
-  ![step 4](https://hjmh.github.io/ethoVR/assets/screenAssembly_step4.png)
-5. Place the top screen support and remaining posts and screw down with remaining #4-40 screws (0.3125in into screen frame, 0.75in into the thorlabs posts.
-  ![step 5](https://hjmh.github.io/ethoVR/assets/screenAssembly_step5.png)
+  ![step 4](https://hjmh.github.io/ethoVR/assets/display/4projectorScreen/screenAssembly_step4.png)
+5. Place the top screen support and remaining posts and screw down with remaining #4-40 screws (0.3125in) into screen frame, 0.75in into the thorlabs posts.
+  ![step 5](https://hjmh.github.io/ethoVR/assets/display/4projectorScreen/screenAssembly_step5.png)
