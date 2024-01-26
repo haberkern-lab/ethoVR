@@ -22,7 +22,7 @@ The projectors are mounted in a fixed position relative to the screen, such that
 
 Note: It is of course also possible to use **computer monitors** or any other device that can be set up as an extended display, instead of projectors. Here we focus on projector-based displays as most people are less familiar with this option and because projector-displays have some advantages: they are easily customizable for different wavelengths, can be modified to run monochromatically for frame packing and thus are convenient when used inside an imaging rig.
 
-[![Frontal view](https://hjmh.github.io/ethoVR/assets/display/4projectorScreen/displayLayout_front.png){ width=400px }](https://hjmh.github.io/ethoVR/assets/display/4projectorScreen/displayLayout_front.png)
+![Frontal view](https://hjmh.github.io/ethoVR/assets/display/4projectorScreen/displayLayout_front.png)
 ![Top view](https://hjmh.github.io/ethoVR/assets/display/4projectorScreen/displayLayout_top.png)
 ![Side view](https://hjmh.github.io/ethoVR/assets/display/4projectorScreen/displayLayout_side.png)
 
@@ -35,34 +35,33 @@ Note: It is of course also possible to use **computer monitors** or any other de
 *	10x [0.75in #4-40 flat head screws](https://www.mcmaster.com/91500A308/)
 *	6x [0.1875in #4-40 flat head screws](https://www.mcmaster.com/91500A120/)
 
-
 **3D printed parts**
 Use an SLA, MJF or SLS printer.
-*	2x 3d printed [screen holder](https://hjmh.github.io/ethoVR/assets/modelfiles/WIDE SCREEN HOLDER 2x.stl) parts with holes tapped for 4-40 thread
-*	3x [screen assembly guide](https://hjmh.github.io/ethoVR/assets/modelfiles/SCREEN ASSEMBLY GUIDE.stl) (printed or lasercut and used during assembly only)
-*	1x [Bottom Screen Support Frame](https://hjmh.github.io/ethoVR/assets/modelfiles/BOTTOM SCREEN SUPPORT FRAME.stl)
-*	1x [Top Screen Support Frame](https://hjmh.github.io/ethoVR/assets/modelfiles/TOP SCREEN SUPPORT FRAME.stl)
+*	2x 3d printed [screen holder](https://hjmh.github.io/ethoVR/assets/display/2projectorScreen/WIDE SCREEN HOLDER 2SCREEN.stl) parts with holes tapped for 4-40 thread
+*	3x [screen assembly guide](https://hjmh.github.io/ethoVR/assets/display/2projectorScreen/SCREEN ASSEMBLY GUIDE.stl) (printed or lasercut and used during assembly only)
+*	1x [Bottom Screen Support Frame](https://hjmh.github.io/ethoVR/assets/display/2projectorScreen/BOTTOM SCREEN SUPPORT 2SCREEN.stl)
+*	1x [Top Screen Support Frame](https://hjmh.github.io/ethoVR/assets/display/2projectorScreen/TOP SCREEN SUPPORT 2SCREEN FRAME.stl)
 
 **Lasercut parts**
-*	1x [fly holder centering aid](https://hjmh.github.io/ethoVR/assets/modelfiles/CENTERFINDING JIG.stl): This helps with positioning the screen in a way that it is centered around the fly/ball holder.
+*	1x [fly holder centering aid](https://hjmh.github.io/ethoVR/assets/display/2projectorScreen/ALIGNMENT JIG 2SCREEN.dxf): This helps with positioning the screen in a way that it is centered around the fly/ball holder.
 
 
 ### 3-projector screen
 
 **Commercial parts**
 * 6x [thorlabs MS3R posts](https://www.thorlabs.com/thorproduct.cfm?partnumber=MS3R)
-*	10x [0.75in #4-40 flat head screws](https://www.mcmaster.com/91500A308/)
-*	6x [0.1875in #4-40 flat head screws](https://www.mcmaster.com/91500A120/)
+*	8x [0.75in #4-40 flat head screws](https://www.mcmaster.com/91500A308/)
+*	8x [0.1875in #4-40 flat head screws](https://www.mcmaster.com/91500A120/)
 
 **3D printed parts**
 Use an SLA, MJF or SLS printer.
-*	2x 3d printed [screen holder](https://hjmh.github.io/ethoVR/assets/modelfiles/WIDE SCREEN HOLDER 2x.stl) parts with holes tapped for 4-40 thread
-*	3x [screen assembly guide](https://hjmh.github.io/ethoVR/assets/modelfiles/SCREEN ASSEMBLY GUIDE.stl) (printed or lasercut and used during assembly only)
-*	1x [Bottom Screen Support Frame](https://hjmh.github.io/ethoVR/assets/modelfiles/BOTTOM SCREEN SUPPORT FRAME.stl)
-*	1x [Top Screen Support Frame](https://hjmh.github.io/ethoVR/assets/modelfiles/TOP SCREEN SUPPORT FRAME.stl)
+*	2x 3d printed [screen holder](https://hjmh.github.io/ethoVR/assets/display/3projectorScreen/WIDE SCREEN HOLDER 3P.stl.stl) parts with holes tapped for 4-40 thread
+*	2x [screen assembly guide](https://hjmh.github.io/ethoVR/assets/display/3projectorScreen/SCREEN ASSEMBLY GUIDE 3P.stl) (3d printed or lasercut and used during assembly only)
+*	1x [Bottom Screen Support Frame](https://hjmh.github.io/ethoVR/assets/display/3projectorScreen/display/3projectorScreen/BOTTOM SCREEN SUPPORT 3P.stl)
+*	1x [Top Screen Support Frame](https://hjmh.github.io/ethoVR/assets/display/3projectorScreen/TOP SCREEN SUPPORT 3P FRAME.stl)
 
 **Lasercut parts**
-*	1x [fly holder centering aid](https://hjmh.github.io/ethoVR/assets/modelfiles/CENTERFINDING JIG.stl): This helps with positioning the screen in a way that it is centered around the fly/ball holder.
+*	1x [fly holder centering aid](https://hjmh.github.io/ethoVR/assets/display/3projectorScreen/CENTERING JIG 3P.stl): This helps with positioning the screen in a way that it is centered around the fly/ball holder.
 
 
 ### 4-projector screen
@@ -70,7 +69,7 @@ Use an SLA, MJF or SLS printer.
 **Commercial parts**
 * 5x [thorlabs MS3R posts](https://www.thorlabs.com/thorproduct.cfm?partnumber=MS3R)
 *	10x [0.75in #4-40 flat head screws](https://www.mcmaster.com/91500A308/)
-*	6x [0.1875in #4-40 flat head screws](https://www.mcmaster.com/91500A120/)
+*	6x [0.1875in #4-40 flat head screws](https://www.mcmaster.com/91500A120/) 
 
 **3D printed parts**
 Use an SLA, MJF or SLS printer.
