@@ -7,13 +7,13 @@ permalink: /display
 ---
 # Projector-based display
 
-Below we provide materials for constructing a panoramic visual display using DLP projectors, which back-project images onto a screen made from a white diffuser sheet.
+Below we provide materials for constructing a panoramic visual display using DLP projectors. Each projector back-projects an image to a single side of the screen. The screen is made from a single, folded, white diffuser sheet.
 {: .fs-6 .fw-300 }
 
-We use flat screens arranged in a regular pentagon shape with one side (behind the fly) open. The Janelia Unity Toolkit supports any pentagonal screen with one open face. This design does not require special brightness corrections for projections onto curved surfaces.
+We use three screen geometries: flat screens arranged in a regular pentagon (4 projectors), cube (3 projectors) or triangular shape (2 projectors). In all cases one side (behind the fly) is open. The Janelia Unity Toolkit supports any such polygonal screen with one open face. The advantage of this design with flat surfaces is, that it does not require any spatially-modulated brightness corrections for projections.
 
-For the diffuser sheet, we recommend V-H105-CV07 or V-HHDE-PM06-S01-D01 from BrightView Technologies (Durham, NC, USA). Recommendations for projectors are listed [here].
+![photo of imaging rig display](https://hjmh.github.io/ethoVR/assets/screen_styles.jpg)
 
-It is possible to use the built-in illumination source for the projectors, or modify the projectors to use an external illumination source. Instructions for projector modifications can be found [here].
+It is possible to use the built-in illumination source for the projectors, or modify the projectors to use an external illumination source. Instructions for projector modifications can be found [here](projector-mod). See below for an example of a 4-projector screen with projectors using a light-guide.
 
-![photo of imaging rig display](https://hjmh.github.io/ethoVR/assets/imagingRig_projectors_photo.jpg)
+![photo of imaging rig display](https://hjmh.github.io/ethoVR/assets/display/imagingRig_projectors_photo.jpg)
