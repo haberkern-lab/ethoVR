@@ -35,6 +35,7 @@ Note: It is of course also possible to use **computer monitors** or any other de
 *	10x [0.75in #4-40 flat head screws](https://www.mcmaster.com/91500A308/)
 *	6x [0.1875in #4-40 flat head screws](https://www.mcmaster.com/91500A120/)
 
+
 **3D printed parts**
 Use an SLA, MJF or SLS printer.
 *	2x 3d printed [screen holder](https://hjmh.github.io/ethoVR/assets/modelfiles/WIDE SCREEN HOLDER 2x.stl) parts with holes tapped for 4-40 thread
