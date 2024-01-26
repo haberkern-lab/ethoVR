@@ -5,7 +5,7 @@ parent: Display
 nav_order: 1
 ---
 
-# Pentagonal screen for four projectors
+# Panoramic screen with 2, 3 or 4 projectors
 {: .no_toc }
 
 ## Table of contents
@@ -26,7 +26,8 @@ Note: It is of course also possible to use **computer monitors** or any other de
 ![Top view](https://hjmh.github.io/ethoVR/assets/displayLayout_top.png)
 ![Side view](https://hjmh.github.io/ethoVR/assets/displayLayout_side.png)
 
-## Parts for the screen
+## Partslist
+### 2-projector screen
 **Commercial parts**
 * 5x [thorlabs MS3R posts](https://www.thorlabs.com/thorproduct.cfm?partnumber=MS3R)
 *	10x [0.75in #4-40 flat head screws](https://www.mcmaster.com/91500A308/)
@@ -42,14 +43,50 @@ Use an SLA, MJF or SLS printer.
 **Lasercut parts**
 *	1x [fly holder centering aid](https://hjmh.github.io/ethoVR/assets/modelfiles/CENTERFINDING JIG.stl): This helps with positioning the screen in a way that it is centered around the fly/ball holder.
 
+### 3-projector screen
+**Commercial parts**
+* 5x [thorlabs MS3R posts](https://www.thorlabs.com/thorproduct.cfm?partnumber=MS3R)
+*	10x [0.75in #4-40 flat head screws](https://www.mcmaster.com/91500A308/)
+*	6x [0.1875in #4-40 flat head screws](https://www.mcmaster.com/91500A120/)
+
+**3D printed parts**
+Use an SLA, MJF or SLS printer.
+*	2x 3d printed [screen holder](https://hjmh.github.io/ethoVR/assets/modelfiles/WIDE SCREEN HOLDER 2x.stl) parts with holes tapped for 4-40 thread
+*	3x [screen assembly guide](https://hjmh.github.io/ethoVR/assets/modelfiles/SCREEN ASSEMBLY GUIDE.stl) (printed or lasercut and used during assembly only)
+*	1x [Bottom Screen Support Frame](https://hjmh.github.io/ethoVR/assets/modelfiles/BOTTOM SCREEN SUPPORT FRAME.stl)
+*	1x [Top Screen Support Frame](https://hjmh.github.io/ethoVR/assets/modelfiles/TOP SCREEN SUPPORT FRAME.stl)
+
+**Lasercut parts**
+*	1x [fly holder centering aid](https://hjmh.github.io/ethoVR/assets/modelfiles/CENTERFINDING JIG.stl): This helps with positioning the screen in a way that it is centered around the fly/ball holder.
+
+
+### 4-projector screen
+**Commercial parts**
+* 5x [thorlabs MS3R posts](https://www.thorlabs.com/thorproduct.cfm?partnumber=MS3R)
+*	10x [0.75in #4-40 flat head screws](https://www.mcmaster.com/91500A308/)
+*	6x [0.1875in #4-40 flat head screws](https://www.mcmaster.com/91500A120/)
+
+**3D printed parts**
+Use an SLA, MJF or SLS printer.
+*	2x 3d printed [screen holder](https://hjmh.github.io/ethoVR/assets/modelfiles/WIDE SCREEN HOLDER 2x.stl) parts with holes tapped for 4-40 thread
+*	3x [screen assembly guide](https://hjmh.github.io/ethoVR/assets/modelfiles/SCREEN ASSEMBLY GUIDE.stl) (printed or lasercut and used during assembly only)
+*	1x [Bottom Screen Support Frame](https://hjmh.github.io/ethoVR/assets/modelfiles/BOTTOM SCREEN SUPPORT FRAME.stl)
+*	1x [Top Screen Support Frame](https://hjmh.github.io/ethoVR/assets/modelfiles/TOP SCREEN SUPPORT FRAME.stl)
+
+**Lasercut parts**
+*	1x [fly holder centering aid](https://hjmh.github.io/ethoVR/assets/modelfiles/CENTERFINDING JIG.stl): This helps with positioning the screen in a way that it is centered around the fly/ball holder.
+
+### For all
 **Screen material**
-*	1x precut screen sheet with at least 1/8in extra height and 1in length to trim after assembly.
+*	1x precut screen sheet with at least 1/8in extra height and 1in length to trim after assembly. For the diffuser sheet, we recommend V-H105-CV07 or V-HHDE-PM06-S01-D01 from BrightView Technologies (Durham, NC, USA). Recommendations for projectors are listed [here].
 
 Screen material: [Item # V-H105-CV07](https://www.brightviewtechnologies.com/products/all-products/volumetric-diffusers)
 Screen dimensions:
 [see here](https://hjmh.github.io/ethoVR/assets/modelfiles/SCREEN FOLD PATTERN.pdf)
 
-## Screen assembly
+## Screen assembly 
+Below the assembly is shown for 4-projector screen. It works very similar for the other two screen geometries.
+
 1. Assemble the wide screen holders and 2 thorlabs MSR3 posts with the 4-40 screws.
   ![step 1](https://hjmh.github.io/ethoVR/assets/screenAssembly_step1.png)
 2. Re-enforce the assembly with the screen assembly guides (slip fit, no glue).
