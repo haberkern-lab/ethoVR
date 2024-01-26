@@ -22,9 +22,9 @@ The projectors are mounted in a fixed position relative to the screen, such that
 
 Note: It is of course also possible to use **computer monitors** or any other device that can be set up as an extended display, instead of projectors. Here we focus on projector-based displays as most people are less familiar with this option and because projector-displays have some advantages: they are easily customizable for different wavelengths, can be modified to run monochromatically for frame packing and thus are convenient when used inside an imaging rig.
 
-![Frontal view](https://hjmh.github.io/ethoVR/assets/display/4projectorScreen/displayLayout_front.png){ width=400px }
-![Top view](https://hjmh.github.io/ethoVR/assets/display/4projectorScreen/displayLayout_top.png){ width=400px }
-![Side view](https://hjmh.github.io/ethoVR/assets/display/4projectorScreen/displayLayout_side.png){ width=400px }
+[![Frontal view](https://hjmh.github.io/ethoVR/assets/display/4projectorScreen/displayLayout_front.png){ width=400px }](https://hjmh.github.io/ethoVR/assets/display/4projectorScreen/displayLayout_front.png)
+![Top view](https://hjmh.github.io/ethoVR/assets/display/4projectorScreen/displayLayout_top.png)
+![Side view](https://hjmh.github.io/ethoVR/assets/display/4projectorScreen/displayLayout_side.png)
 
 ## Parts list
 
@@ -83,11 +83,13 @@ Use an SLA, MJF or SLS printer.
 
 ### All screen geometries
 **Screen material**
-*	1x precut screen sheet with at least 1/8in extra height and 1in length to trim after assembly. For the diffuser sheet, we recommend V-H105-CV07 or V-HHDE-PM06-S01-D01 from BrightView Technologies (Durham, NC, USA). Recommendations for projectors are listed [here].
+1x precut screen sheet. For the diffuser sheet, we recommend [Item # V-H105-CV07](https://www.brightviewtechnologies.com/products/all-products/volumetric-diffusers) or V-HHDE-PM06-S01-D01 from BrightView Technologies (Durham, NC, USA).
 
-Screen material: [Item # V-H105-CV07](https://www.brightviewtechnologies.com/products/all-products/volumetric-diffusers)
 Screen dimensions:
 [see here](https://hjmh.github.io/ethoVR/assets/display/4projectorScreen/SCREEN FOLD PATTERN.pdf)
+
+**Projectors**
+Recommendations for projectors are listed [here].
 
 ## Screen assembly 
 Below the assembly is shown for 4-projector screen. It works very similar for the other two screen geometries.
