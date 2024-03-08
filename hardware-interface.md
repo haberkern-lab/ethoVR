@@ -54,7 +54,7 @@ Fictrac settings are saved in a config file, which is passed to FicTrac via the 
 
 Note: for some reason the ball radius seems to reset when manually editing the config file. Quickly go through the configuration procedure to reset.
 
-An example settings file can be found [here](https://hjmh.github.io/ethoVR/assets/fictrac/grasshop_socket_config.txt).
+An example settings file can be found [here](https://haberkern-lab.github.io/ethoVR/assets/fictrac/grasshop_socket_config.txt).
 
 The camera's reference frame is defined as:
 * X = image right (cols);
@@ -66,7 +66,7 @@ The animal's reference frame is defined as:
 * Y = right
 * Z = down
 
-![intro image](https://hjmh.github.io/ethoVR/assets/fictrac/fictrac-configImg.png)
+![intro image](https://haberkern-lab.github.io/ethoVR/assets/fictrac/fictrac-configImg.png)
 
 
 ## Interface with a NIDaq board

@@ -44,16 +44,16 @@ For gluing the tether to the thorax, we use KOA 300 (KEMXERT, York, PA, USA). In
 **Frame**
 
 3D print this piece, which will work as a frame and holder for the metal pyramid:
-[ipt](https://hjmh.github.io/ethoVR/assets/flyholder/FlyHolder_PyramidMount_V3_WIDEVIEW.ipt), [stl](https://hjmh.github.io/ethoVR/assets/flyholder/FlyHolder_PyramidMount_V3_WIDEVIEW.stl), or [stp](https://hjmh.github.io/ethoVR/assets/flyholder/FlyHolder_PyramidMount_V3_WIDEVIEW.stp) files.
+[ipt](https://haberkern-lab.github.io/ethoVR/assets/flyholder/FlyHolder_PyramidMount_V3_WIDEVIEW.ipt), [stl](https://haberkern-lab.github.io/ethoVR/assets/flyholder/FlyHolder_PyramidMount_V3_WIDEVIEW.stl), or [stp](https://haberkern-lab.github.io/ethoVR/assets/flyholder/FlyHolder_PyramidMount_V3_WIDEVIEW.stp) files.
 
 The frame was optimized to give a large field of view while allowing access with a 40x objective positioned at a ~30 degree angle.
-![frame](https://hjmh.github.io/ethoVR/assets/flyholder/frame.png)
-![frame2](https://hjmh.github.io/ethoVR/assets/flyholder/frame2.png)
+![frame](https://haberkern-lab.github.io/ethoVR/assets/flyholder/frame.png)
+![frame2](https://haberkern-lab.github.io/ethoVR/assets/flyholder/frame2.png)
 
 **Metal pyramid**
 
 Cut this piece from thin metal sheet:
-[ipt](https://hjmh.github.io/ethoVR/assets/flyholder/METAL FLY PYRAMID CENTERED V2.ipt), or [dxf](https://hjmh.github.io/ethoVR/assets/flyholder/METAL FLY PYRAMID CENTERED V2.dxf) files.
+[ipt](https://haberkern-lab.github.io/ethoVR/assets/flyholder/METAL FLY PYRAMID CENTERED V2.ipt), or [dxf](https://haberkern-lab.github.io/ethoVR/assets/flyholder/METAL FLY PYRAMID CENTERED V2.dxf) files.
 
 Then carefully fold the pyramid into shape along the etched edges. After folding, glue the pyramid into the 3D-printed frame with a water-resistant glue.
 
@@ -69,4 +69,4 @@ Then carefully fold the pyramid into shape along the etched edges. After folding
 **Custom parts**
 * Aluminum connector piece (between translation stage and post holder)
 
-![connector piece](https://hjmh.github.io/ethoVR/assets/flyholder/flyholder_connector.png)
+![connector piece](https://haberkern-lab.github.io/ethoVR/assets/flyholder/flyholder_connector.png)

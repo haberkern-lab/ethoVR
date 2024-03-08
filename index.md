@@ -28,9 +28,9 @@ For the Janelia Unity Toolkit, please cite the following DOI:
 The Janelia Unity Toolkit provides software packages that extend Unity functionality in a modular manner to accommodate specialized needs for applications of virtual reality to neuroscience and (neuro-)ethology. These packages allow precise control of frame rate, setup of a panoramic display, a connection with FicTrac via socket connection, custom collision handling, data logging and more. In addition, here we provide information on building hardware for a virtual reality system that permits neural recordings in behaving insects.
 
 
-[Get started now](https://hjmh.github.io/ethoVR/getting-started/){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }  [Janelia Unity Toolkit](https://github.com/JaneliaSciComp/janelia-unity-toolkit){: .btn .fs-5 .mb-4 .mb-md-0 }
+[Get started now](https://haberkern-lab.github.io/ethoVR/getting-started/){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }  [Janelia Unity Toolkit](https://github.com/JaneliaSciComp/janelia-unity-toolkit){: .btn .fs-5 .mb-4 .mb-md-0 }
 
 ---
 
-![intro image](https://hjmh.github.io/ethoVR/assets/DemoImage.png)
+![intro image](https://haberkern-lab.github.io/ethoVR/assets/DemoImage.png)
 ##### An example application where a fly explored an immersive visual virtual reality during simultaneous two-photon calcium imaging.
