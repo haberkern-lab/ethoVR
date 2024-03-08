@@ -20,11 +20,11 @@ The modification instructions below are for the DLPDLCR2010EVM model by Texas In
 
 Parts should be printed with an SLA, MJF or SLS printer. If needed there are online [printing services](https://www.hubs.com/3d-printing/).
 
-A modification guide for the DLP LightCrafter Display 3010EVM-G2 (TI DLPDLC3010EVM-G2) can be found [here](https://hjmh.github.io/ethoVR/assets/otherdocs/TI DLPDLC3010EVM-G2 modification guide.pdf). It includes the following custom-designed 3D printed parts:
-*	1x [PCB brace](https://hjmh.github.io/ethoVR/assets/modelfiles/PCB BRACE.stl)
-*	1x [light guide adapter](https://hjmh.github.io/ethoVR/assets/modelfiles/LIGHT GUIDE ADAPTER.stl)
-*	1x [Vertical Mounting Plate](https://hjmh.github.io/ethoVR/assets/modelfiles/3010 MOUNT PLATE.stl)
-*	1x [Retaining bracket](https://hjmh.github.io/ethoVR/assets/modelfiles/3010 MOUNT PLATE RETAINER FIXED.stl)
+A modification guide for the DLP LightCrafter Display 3010EVM-G2 (TI DLPDLC3010EVM-G2) can be found [here](https://haberkern-lab.github.io/ethoVR/assets/otherdocs/TI DLPDLC3010EVM-G2 modification guide.pdf). It includes the following custom-designed 3D printed parts:
+*	1x [PCB brace](https://haberkern-lab.github.io/ethoVR/assets/modelfiles/PCB BRACE.stl)
+*	1x [light guide adapter](https://haberkern-lab.github.io/ethoVR/assets/modelfiles/LIGHT GUIDE ADAPTER.stl)
+*	1x [Vertical Mounting Plate](https://haberkern-lab.github.io/ethoVR/assets/modelfiles/3010 MOUNT PLATE.stl)
+*	1x [Retaining bracket](https://haberkern-lab.github.io/ethoVR/assets/modelfiles/3010 MOUNT PLATE RETAINER FIXED.stl)
 
 ---
 
@@ -58,10 +58,10 @@ First, make sure all power is disconnected and you are properly grounded to prev
 * [VHB tape](https://www.mcmaster.com/75935A12/)
 
 **3d printed parts (per projector)**
-* 1x [PROJECTOR MOUNT FOR ADJ XY LLG](https://hjmh.github.io/ethoVR/assets/modelfiles/PROJECTOR MOUNT FOR ADJ XY LLG V2.stl)
-* 1x [PROJECTOR LIGHTBLOCK](https://hjmh.github.io/ethoVR/assets/modelfiles/PROJECTOR LIGHTBLOCK 2.stl) (Optional, simpler methods for blocking board LEDs exist)
-* 1x [FLYVR PIVOT MOUNTPLATE](https://hjmh.github.io/ethoVR/assets/modelfiles/FLYVR PIVOT MOUNTPLATE.stl)
-* 1x [CORNER FLYVR PIVOT MOUNTPLATE](https://hjmh.github.io/ethoVR/assets/modelfiles/CORNER FLYVR PIVOT MOUNTPLATE v2.stl) (Optional, helpful if space is limited)
+* 1x [PROJECTOR MOUNT FOR ADJ XY LLG](https://haberkern-lab.github.io/ethoVR/assets/modelfiles/PROJECTOR MOUNT FOR ADJ XY LLG V2.stl)
+* 1x [PROJECTOR LIGHTBLOCK](https://haberkern-lab.github.io/ethoVR/assets/modelfiles/PROJECTOR LIGHTBLOCK 2.stl) (Optional, simpler methods for blocking board LEDs exist)
+* 1x [FLYVR PIVOT MOUNTPLATE](https://haberkern-lab.github.io/ethoVR/assets/modelfiles/FLYVR PIVOT MOUNTPLATE.stl)
+* 1x [CORNER FLYVR PIVOT MOUNTPLATE](https://haberkern-lab.github.io/ethoVR/assets/modelfiles/CORNER FLYVR PIVOT MOUNTPLATE v2.stl) (Optional, helpful if space is limited)
 
 **Modification steps**
 1. Prepare the PROJECTOR MOUNT FOR ADJ XY LLG for assembly by using the #00-96 screws to cut threads into the printed holes and tap the hole on the vertical face for a #4-40 screw.
@@ -95,10 +95,10 @@ Note that quantities are listed per projector assembly.
 
 **3d Printed Parts**
 These should be printed on a resin or polyjet printer for accuracy.
-* 1x [XY SLIDE BOTTOM](https://hjmh.github.io/ethoVR/assets/modelfiles/XY SLIDE BOTTOM.stl)
-* 1x [XY SLIDE TOP](https://hjmh.github.io/ethoVR/assets/modelfiles/XY SLIDE TOP.stl)
-* 1x [XY SLIDE PLATE](https://hjmh.github.io/ethoVR/assets/modelfiles/XY SLIDE PLATE.stl)
-* 4x [XY LINEAR GUIDE BLOCKS](https://hjmh.github.io/ethoVR/assets/modelfiles/XY LINEAR GUIDE BLOCKS.stl)
+* 1x [XY SLIDE BOTTOM](https://haberkern-lab.github.io/ethoVR/assets/modelfiles/XY SLIDE BOTTOM.stl)
+* 1x [XY SLIDE TOP](https://haberkern-lab.github.io/ethoVR/assets/modelfiles/XY SLIDE TOP.stl)
+* 1x [XY SLIDE PLATE](https://haberkern-lab.github.io/ethoVR/assets/modelfiles/XY SLIDE PLATE.stl)
+* 4x [XY LINEAR GUIDE BLOCKS](https://haberkern-lab.github.io/ethoVR/assets/modelfiles/XY LINEAR GUIDE BLOCKS.stl)
 
 
 **Liquid light guide alignment fabrication**

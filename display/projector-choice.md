@@ -38,7 +38,7 @@ Unfortunately, it is now discontinued, but see below for possible replacement op
 ## DLP LightCrafter Display 3010EVM-G2 (TI DLPDLC3010EVM-G2)
 Used by the [Turner-Evans lab (UCSC)](https://t-e-lab.com/) and Jayaraman lab (Janelia) together with the unity-based ethoVR. This projector reliably shows streamed RGB images at 120 Hz.
 
-A guide on modifying this projector for use in the ethoVR can be found [here](https://hjmh.github.io/ethoVR/assets/otherdocs/TI DLPDLC3010EVM-G2 modification guide.pdf).
+A guide on modifying this projector for use in the ethoVR can be found [here](https://haberkern-lab.github.io/ethoVR/assets/otherdocs/TI DLPDLC3010EVM-G2 modification guide.pdf).
 
 ## EKB Technologies
 We tested the [EKB DLP LightCrafter E4500 UV-B-G](https://www.ekbtechnologies.com/e-store/dlp-lightcrafter-e4500-mkii-uv-385nm-405nm-blue-460nm-green-520nm?c=5cb86ca038d9a) extensively and were unable to stream full color video at 120 Hz. When set to **streaming** at 120 Hz, we measured an effective frame rate of **15 Hz**. This was tested with several, comparatively powerful graphics cards such as the PNY GeForce RTX2080Ti 11GB PCI-E (Blower Edition).
