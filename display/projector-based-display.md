@@ -86,7 +86,7 @@ Use an SLA, MJF or SLS printer.
 1x precut screen sheet. For the diffuser sheet, we recommend [Item # V-H105-CV07](https://www.brightviewtechnologies.com/products/all-products/volumetric-diffusers) or V-HHDE-PM06-S01-D01 from BrightView Technologies (Durham, NC, USA).
 
 Screen dimensions:
-[see here](https://haberkern-lab.github.io/ethoVR/assets/display/4projectorScreen/SCREEN FOLD PATTERN.pdf)
+See [here](https://haberkern-lab.github.io/ethoVR/assets/display/4projectorScreen/SCREEN FOLD PATTERN.pdf) for 4-sided screen. To allow for a good fit, we recommend cutting the height to 3 15/16 inch. For the width, use 2.3 inch per face. 
 
 **Projectors**
 Recommendations for projectors are listed [here].
