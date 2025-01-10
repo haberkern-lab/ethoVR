@@ -22,7 +22,7 @@ Some tips on materials to use for building a fly tether and "pyramid" for behavi
 **For the tether itself:**
 
 * [Adapter piece](https://www.microgroup.com/product-category/hypodermic_tubing/) between "tether foot" and tungsten wire: Stainless Steel 316 Hypodermic Tubing: 19 Gauge, 0.042" OD, 0.032" ID, 0.005" Wall, 12" Length
-* Pin Contact Gold Crimp 20-24 AWG Machined (e.g. from Digikey, Catalog #: A2160-ND)
+* Pin Contact Gold Crimp 20-24 AWG Machined (e.g. from Digikey, Catalog #: A2160-ND; or [HARTING 09670008576 from MOUSER](https://www.mouser.de/ProductDetail/HARTING/09670008576?qs=0gj%2FgiofzsO4AlPTT%252Bvimg%3D%3D&utm_source=OEMSecrets&utm_medium=aggregator&utm_campaign=09670008576&utm_term=09670008576&utm_content=HARTING))
 * [Tungston wire](http://www.a-msystems.com/p-728-tungsten-rod.aspx): 127 µm diameter, 3 in long, 100 pieces
 
 **For a holder on which the tether can be mounted**
@@ -31,7 +31,7 @@ Some tips on materials to use for building a fly tether and "pyramid" for behavi
    - Possible alternative 1: [464 Brass Round Rod](https://www.amazon.com/dp/B003JP6DE0/ref=biss_dp_t_asn), Unpolished (Mill) Finish, H02 Temper, ASTM B21, 0.25" Diameter, 84" Length (Product #: 13440)
    - Possible alternative 2: [Eowpower 2pcs Brass Round Rods](https://www.amazon.com/Eowpower-Brass-Round-Diameter-Length/dp/B0748DQ1MP/ref=sr_1_2?ie=UTF8&qid=1504842092&sr=8-2&keywords=464+Brass+Round+Rod%2C) Lathe Bar Stock 1/4 Inch Diameter 14 Inch Length (Product #: 02-001-015)
 
-* Adapter piece, in which the tether can secured and which is to be mounted on the post: Socket Contact Gold Crimp 20-24 AWG Machined (from Digikey, Catalog #: A2161-ND)
+* Adapter piece, in which the tether can secured and which is to be mounted on the post: Socket Contact Gold Crimp 20-24 AWG Machined (from Digikey, Catalog #: A2161-ND; or [HARTING 09670008476 from MOUSER](https://www.mouser.de/ProductDetail/HARTING/09670008476?qs=0gj%2FgiofzsMF2OVygxz9OA%3D%3D&utm_source=OEMSecrets&utm_medium=aggregator&utm_campaign=09670008476&utm_term=09670008476&utm_content=HARTING))
 
 
 ### Tethering a fly
