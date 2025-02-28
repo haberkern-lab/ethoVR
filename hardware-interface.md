@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Hardware interface
-nav_order: 5
+nav_order: 6
 permalink: /hardware
 ---
 # Hardware interface
