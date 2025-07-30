@@ -1,4 +1,4 @@
----
+ ---
 title: Dimensions and Coordinates
 nav_order: 3
 permalink: /dims
@@ -26,4 +26,4 @@ Since we are not using  the unity physics engine to update positions of objects 
 The ball radius can be exposed as a variable in the unity editor (and later in a GUI).
 
 ## Definition of angles in cylinder worlds
-<img src="https://haberkern-lab.github.io/ethoVR/assets/screenDimensions.png" alt="" width="200"/>
+<img src="https://www.haberkernlab.de/ethoVR/assets/screenDimensions.png" alt="" width="200"/>
