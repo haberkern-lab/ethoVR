@@ -55,7 +55,7 @@ Use an SLA, MJF or SLS printer.
 
 **3D printed parts**
 Use an SLA, MJF or SLS printer.
-*	2x 3d printed [screen holder](https://www.haberkernlab.de/ethoVR/assets/display/3projectorScreen/WIDE SCREEN HOLDER 3P.stl.stl) parts with holes tapped for 4-40 thread
+*	2x 3d printed [screen holder](https://www.haberkernlab.de/ethoVR/assets/display/3projectorScreen/WIDE SCREEN HOLDER 3P.stl) parts with holes tapped for 4-40 thread
 *	2x [screen assembly guide](https://www.haberkernlab.de/ethoVR/assets/display/3projectorScreen/SCREEN ASSEMBLY GUIDE 3P.stl) (3d printed or lasercut and used during assembly only)
 *	1x [Bottom Screen Support Frame](https://www.haberkernlab.de/ethoVR/assets/display/3projectorScreen/display/3projectorScreen/BOTTOM SCREEN SUPPORT 3P.stl)
 *	1x [Top Screen Support Frame](https://www.haberkernlab.de/ethoVR/assets/display/3projectorScreen/TOP SCREEN SUPPORT 3P FRAME.stl)
